@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700|Bevan:100,200,300,400,500,600,700');
+
+/*---------------------------------------------------------------Colours------*/
+
+
+}
+
+.ui-menu-color-home {
+    background-color: #69C493;
+}
+
+
+/*---------------------------------------------------------------Header------*/
+
+.introduction {
+    background-image: url(/assets/images/huntsman_pub_1.jpeg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+/*---------------------------------------------------------------Header------*/
+
+#basic-info { 
+    list-style: none;
+}
