@@ -1,27 +1,106 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Raleway:100,200,300,400,500,600,700|Bevan:100,200,300,400,500,600,700');
 
-/*---------------------------------------------------------------Colours------*/
-
-
+body {
+    font-family: Raleway, sans-serif;
 }
 
-.ui-menu-color-home {
-    background-color: #69C493;
+/*-------------------------------------Header*/
+
+.huntsmanlogo {
+    font-family: Bevan, sans-serif;
+    font-size: 60px;
+    font-weight: 500;
+    background-color: #252525;
+    color: #77BFA5;
+    display: inline-block;
+    padding: 5px 10px 0px 10px;
+    margin-top: 10px;
+    letter-spacing: 5px;
 }
 
+/*-------------------------------------Containers*/
 
-/*---------------------------------------------------------------Header------*/
+.header-container {
+    height: 100vh;
 
-.introduction {
-    background-image: url(/assets/images/huntsman_pub_1.jpeg);
-    background-attachment: fixed;
+    background: url(images/huntsman_pub_1.jpeg) no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
-    background-position: center;
+}
+
+.modal-container{
+    padding-top: 15px;
+}
+
+.hours-container {
     
 }
 
-/*---------------------------------------------------------------Header------*/
-
-#basic-info { 
-    list-style: none;
+.facilities-container {
+    
 }
+
+.events-container {
+    
+}
+
+.food-container {
+    
+}
+
+.footer-container{
+    
+}
+
+
+/*-------------------------------------Introduction*/
+
+.introduction {
+    background: rgba(0, 0, 0, 0.8);
+    color: #fff;
+    
+    margin-top: 5%;
+    text-align: center;
+}
+
+.introduction h2 {
+    padding-top: 25px;
+    font-weight: bold;
+    word-spacing: 5px;
+    font-size: 36px;
+    color: #77BFA5;
+}
+
+.introduction p {
+    padding-top: 50px;
+    font-size: larger;
+}
+
+.introduction h5 {
+    padding-top: 40px;
+}
+
+.btn-modal {
+    background-color: #77BFA5;
+    color: #252525;
+    border-color: #252525;
+    border-width: 2px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.btn-modal:hover {
+    background-color: #3D856B;
+    border-color: #252525;
+}
+
+.btn-modal:active {
+    background-color: red;
+}
+
+.grow { transition: all .2s ease-in-out; }
+
+.grow:hover { transform: scale(1.1); }
+

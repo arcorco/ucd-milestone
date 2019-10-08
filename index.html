@@ -12,11 +12,11 @@
 </head>
 
 <body>
-    <article class="container">
 
-        <!-----Header----->
+    <!-----Header----->
+    <div class="header-container container-fluid">
         <header class="header">
-            <h1 class="text-uppercase">The Huntsman</h1>
+            <!--<h1 class="text-uppercase huntsmanlogo">The Huntsman</h1>-->
             <nav class="navbar navbar-expand-lg navbar-light bg-light">
                 <a class="navbar-brand" href="#">Welcome</a>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,18 +42,20 @@
 
         <!-----Introduction----->
         <section class="introduction">
-            <h2>Welcome to The Huntsman!</h1>
-                <p>We are a traditional country pub in the idyllic Yorkshire village of Drax. Join us for a hearty meal, a drink and a chat! We look forward to seeing you soon. </p>
-                <div class="container">
+            <h2>Welcome to </h2>
+            <h1 class="text-uppercase huntsmanlogo">The Huntsman</h1>
+                <p>We are a traditional country pub in the idyllic Yorkshire village of Drax. Join us for a hearty meal, a drink and a chat! <br> We look forward to seeing you soon. </p>
+                <div class="container modal-container">
+
                     <h5>Be the first to hear about our news and events by signing up to our newsletter!</h5>
-                    <form>
-                        <input type="email" name="emailaddress" placeholder="email@example.com" />
-                        <button class="btn btn-success">Sign up!</button>
-                    </form>
+                    <!-- Button trigger modal -->
+                    <button type="button" class="btn btn-primary btn-modal btn-lg grow" data-toggle="modal" data-target="#myModal">Sign up!</button>
                 </div>
+
         </section>
+    </div>
 
-
+    <div class="container hours-container">
         <section class="openinghours">
             <h2>Opening Hours</h2>
 
@@ -126,7 +128,9 @@
             </table>
 
         </section>
+    </div>
 
+    <div class="container facilities-container">
         <section class="facilities">
             <h2>Facilities</h2>
             <ul class="col">
@@ -144,9 +148,11 @@
                 <li>Real fire</li>
             </ul>
         </section>
-        <!-----/.introduction----->
+    </div>
+    <!-----/.introduction----->
 
-        <!-----Events----->
+    <!-----Events----->
+    <div class="container events-container">
         <section class="events">
             <h2>Upcoming Events</h2>
             <table class="table">
@@ -170,10 +176,12 @@
                 </tbody>
             </table>
         </section>
-        <!-----/.events----->
+    </div>
+    <!-----/.events----->
 
 
-        <!-----Food and Drink----->
+    <!-----Food and Drink----->
+    <div class="container food-container">
         <section class="menu">
             <h2>Download our menu here</h2>
             <h2>Request a booking</h2>
@@ -214,21 +222,69 @@
             </form>
 
         </section>
+    </div>
 
-
+    <div class="container">
         <section class="ales">
             <h2>Guest Ales</h2>
             <div class="row">
-                <div class="col-2">
-                    <img src="/assets/images/beerpage-Landlord-360x308.png"></img>
+                <div class="col-md-6 ">
+                    <img src="#"></img>
+                    <h4>Timothy Taylor's</h4>
+                    <h3 class="text-uppercase">Landlord</h3>
+                    <p>Tasting notes</p>
+                    <table class="table table-borderless">
+                        <tbody>
+                            <tr>
+                                <td>Sight</td>
+                                <td><i class="fa fa-eye"></i></td>
+                                <td>Pale amber</td>
+                            </tr>
+                            <tr>
+                                <td>Smell</td>
+                                <td><img src="https://img.icons8.com/ios/50/000000/nose.png"></td>
+                                <td>Citrus, hoppy, fruity</td>
+                            </tr>
+                            <tr>
+                                <td>Taste</td>
+                                <td><img src="https://img.icons8.com/ios/50/000000/lips.png"></td>
+                                <td>Full, sweet, lingering hop</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
-                <div class="col-2">
-                    
+
+                <div class="col-md-6">
+                    <img src="#"></img>
+                    <h4>Saltaire Brewery's</h4>
+                    <h3 class="text-uppercase">Cascade</h3>
+                    <table class="table table-borderless">
+                        <tbody>
+                            <tr>
+                                <td>Sight</td>
+                                <td><i class="fa fa-eye"></i></td>
+                                <td>Bright, rich pale</td>
+                            </tr>
+                            <tr>
+                                <td>Smell</td>
+                                <td><img src="https://img.icons8.com/ios/50/000000/nose.png"></td>
+                                <td>Pink grapefuit</td>
+                            </tr>
+                            <tr>
+                                <td>Taste</td>
+                                <td><img src="https://img.icons8.com/ios/50/000000/lips.png"></td>
+                                <td>Punchy citrus, distinctive bitterness</td>
+                            </tr>
+                        </tbody>
+                    </table>
                 </div>
             </div>
         </section>
+    </div>
+    <!-----/.foodanddrink----->
 
-
+    <!-----Footer----->
+    <div class="container footer-container">
         <footer class="container-fluid">
             <div class="row">
                 <div class="col-lg-3 col-sm-6">
@@ -236,7 +292,7 @@
                         105 Main Road, Drax, Selby <br> North Yorkshire, YO8 8NT
                     </address>
                 </div>
-                
+
                 <div class="col-lg-3 col-sm-6">
                     <p>01757 618642</p>
                 </div>
@@ -244,15 +300,43 @@
                 <div class="col-lg-3 col-sm-6">
                     <p>thehuntsmanindrax@gmail.com</p>
                 </div>
-                
+
                 <div class="col-lg-3 col-sm-6">
                     <i class="fa fa-facebook-square"></i>
                     <i class="fa fa-tripadvisor"></i>
                 </div>
             </div>
 
+
+            <p><small><a href="https://icons8.com/icon/36046/smelling">Smelling icon by Icons8</a><br><a href="https://icons8.com/icon/18149/lips">Lips icon by Icons8</a></small></p>
+
         </footer>
-    </article>
+    </div>
+    <!-----/.footer----->
+
+
+    <!---
+    <div class="modal" tabindex="-1" role="dialog" id="myModal">
+        <div class="modal-dialog" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">Modal title</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+          <span aria-hidden="true">&times;</span>
+        </button>
+                </div>
+                <div class="modal-body">
+                    <p>Modal body text goes here.</p>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Save changes</button>
+                </div>
+            </div>
+        </div>
+    </div>
+--->
+
 </body>
 
 </html>
