@@ -4,18 +4,56 @@ body {
     font-family: Raleway, sans-serif;
 }
 
+.title { 
+    font-family: Poppins, sans-serif
+}
+
+
+
+/*-------------------------------------Colours*/
+
+.title-colour {
+    color: #77BFA5;
+}
+
+.text-white {
+    color: #fff;
+}
+
+.section-bg-1 {
+    background-color: #252525;
+}
+
+.section-bg-2 {
+    background-color: #c5c5c5;
+}
+
+.section-bg-3 {
+    background-color: #77BFA5;
+}
+
+/*-------------------------------------Navbar*/
+
+.navbar-huntsman {
+    background-color: #252525
+}
+
 /*-------------------------------------Header*/
 
 .huntsmanlogo {
     font-family: Bevan, sans-serif;
     font-size: 60px;
     font-weight: 500;
-    background-color: #252525;
-    color: #77BFA5;
     display: inline-block;
     padding: 5px 10px 0px 10px;
     margin-top: 10px;
     letter-spacing: 5px;
+}
+
+@media screen and (max-width: 601px) {
+    .huntsmanlogo {
+        font-size: 40px;
+    }
 }
 
 /*-------------------------------------Containers*/
@@ -23,7 +61,9 @@ body {
 .header-container {
     height: 100vh;
 
-    background: url(images/huntsman_pub_1.jpeg) no-repeat center center fixed;
+    background: url(images/huntsman_pub_1.jpeg), url(images/huntsman_pub_2.jpeg), url(images/huntsman_pub_3.jpeg), url(images/huntsman_pub_4.jpeg), 
+    url(images/huntsman_pub_5.jpeg), url(images/huntsman_pub_6.jpeg), url(images/huntsman_pub_7.jpeg), url(images/huntsman_pub_8.jpeg)
+    no-repeat center center fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
@@ -35,19 +75,31 @@ body {
 }
 
 .hours-container {
-    
+    margin: 0px;
+    padding: 69px 69px 50px 69px;
 }
 
 .facilities-container {
-    
+    margin: 0px;
+    padding: 69px 69px 50px 69px;
 }
 
 .events-container {
-    
+    margin: 0;
+    padding: 69px 69px 50px 69px;
 }
 
+
+
 .food-container {
-    
+    margin: 0;
+    padding: 69px 69px 50px 69px;
+}
+
+.drink-container {
+    margin:0;
+    padding: 69px 69px 50px 69px;
+    color: #fff;
 }
 
 .footer-container{
@@ -61,7 +113,7 @@ body {
     background: rgba(0, 0, 0, 0.8);
     color: #fff;
     
-    margin-top: 5%;
+    margin-top: 2.5%;
     text-align: center;
 }
 
@@ -70,7 +122,6 @@ body {
     font-weight: bold;
     word-spacing: 5px;
     font-size: 36px;
-    color: #77BFA5;
 }
 
 .introduction p {
@@ -87,7 +138,7 @@ body {
     color: #252525;
     border-color: #252525;
     border-width: 2px;
-    margin-top: 15px;
+    margin-top: 10px;
     margin-bottom: 15px;
 }
 
@@ -96,11 +147,63 @@ body {
     border-color: #252525;
 }
 
-.btn-modal:active {
-    background-color: red;
-}
-
 .grow { transition: all .2s ease-in-out; }
 
 .grow:hover { transform: scale(1.1); }
 
+.title-food {
+    padding-top: 50px;
+}
+
+/*-------------------------------------Facilities*/
+
+.facilities-title {
+    padding: 0px 0 20px 0px;
+}
+
+.facilities-row {
+    height: 20vh;
+    text-align: center;
+    padding-bottom: 10px;
+}
+
+.facilities-box {
+    font-size: 15px;
+    border-radius: 50%;
+}
+
+.facilities-icon {
+    font-size: 50px;
+    padding-top: 15px;
+}
+
+.billiards-icon {
+    padding-top: 8px;
+}
+
+.dart-icon {
+    padding-top: 15px;
+}
+
+/*-------------------------------------Events*/
+
+.events-table {
+    color: #fff;
+}
+
+/*-------------------------------------Food and drink*/
+
+.booking {
+    margin-top: 20px;
+    padding: 15px 20px 15px 20px;
+    border: 2px solid #252525;
+    border-radius: 5%;
+}
+
+.ale-table {
+    color: #fff;
+}
+
+.ale-icon {
+    font-size: 45px;
+}
