@@ -50,6 +50,8 @@ body {
     letter-spacing: 5px;
 }
 
+
+/*-------------------------------------Media queries*/
 @media screen and (max-width: 601px) {
     .huntsmanlogo {
         font-size: 40px;
@@ -102,7 +104,18 @@ body {
     color: #fff;
 }
 
+.image-container {
+    display: flex;
+}
+
+.ale-container {
+    padding-top: 20px;
+}
+
 .footer-container{
+    margin:0;
+    padding: 30px 49px 30px 49px;
+    text-align: center;
     
 }
 
@@ -202,8 +215,35 @@ body {
 
 .ale-table {
     color: #fff;
+    display: table;
+    vertical-align: middle;
+}
+
+.ale-table-cell {
+    display: table-cell;
+    vertical-align: middle !important;
 }
 
 .ale-icon {
     font-size: 45px;
+    font-weight: 100;
+}
+
+.ale-image {
+    margin: auto;
+}
+
+/*-------------------------------------Footer*/
+
+.footer-icon {
+    font-size: 30px;
+}
+
+.facebook {
+    display: inline-block
+}
+
+.tripadvisor {
+    display: inline-block;
+    padding-left: 15px;
 }
