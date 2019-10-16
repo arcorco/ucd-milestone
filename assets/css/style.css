@@ -4,11 +4,12 @@ body {
     font-family: Raleway, sans-serif;
 }
 
-.title { 
+.title {
     font-family: Poppins, sans-serif
 }
 
-.btn:focus, .btn:active {
+.btn:focus,
+.btn:active {
     outline: 0;
     box-shadow: none;
 }
@@ -124,14 +125,27 @@ h5 {
 }
 
 @keyframes imageAnimation {
-    0% { opacity: 0; animation-timing-function: ease-in; }
-    8% { opacity: 1; animation-timing-function: ease-out; }
-    17% { opacity: 1;}
-    25% {opacity: 0;}
-    100% {opacity: 0;}
+    0% {
+        opacity: 0;
+        animation-timing-function: ease-in;
+    }
+    8% {
+        opacity: 1;
+        animation-timing-function: ease-out;
+    }
+    17% {
+        opacity: 1;
+    }
+    25% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 0;
+    }
 }
 
 /*-------------------------------------Media queries*/
+
 @media screen and (max-width: 601px) {
     .huntsmanlogo {
         font-size: 40px;
@@ -150,7 +164,7 @@ h5 {
     height: 101vh;
 }
 
-.modal-container{
+.modal-container {
     padding-top: 15px;
 }
 
@@ -177,7 +191,7 @@ h5 {
 }
 
 .drink-container {
-    margin:0;
+    margin: 0;
     padding: 69px 69px 50px 69px;
     color: #fff;
 }
@@ -190,11 +204,11 @@ h5 {
     padding-top: 20px;
 }
 
-.footer-container{
-    margin:0;
+.footer-container {
+    margin: 0;
     padding: 30px 49px 30px 49px;
     text-align: left;
-    
+
 }
 
 
@@ -203,7 +217,7 @@ h5 {
 .introduction {
     background: rgba(0, 0, 0, 0.8);
     color: #fff;
-    
+
     margin-top: 2.5%;
     text-align: center;
     z-index: 1;
@@ -244,9 +258,13 @@ h5 {
     overflow: hidden;
 }
 
-.grow { transition: all .2s ease-in-out; }
+.grow {
+    transition: all .2s ease-in-out;
+}
 
-.grow:hover { transform: scale(1.1); }
+.grow:hover {
+    transform: scale(1.1);
+}
 
 .title-food {
     padding-top: 50px;
@@ -264,26 +282,47 @@ h5 {
     font-size: larger;
 }
 
+.food-image {
+    height: 100%;
+    width: 100%;
+}
+
+.ban-icon {
+    font-size: 270px;
+    color: #C30000;
+}
+
+.food-card {
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.4s;
+}
+
+.food-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+}
+
 /* Credit: https://leaverou.github.io/bubbly/ */
+
 .speech-bubble {
-	position: relative;
-	background: #00aabb;
-	border-radius: .4em;
+    position: relative;
+    background: #00aabb;
+    border-radius: .4em;
 }
 
 .speech-bubble:after {
-	content: '';
-	position: absolute;
-	left: 0;
-	top: 50%;
-	width: 0;
-	height: 0;
-	border: 41px solid transparent;
-	border-right-color: #00aabb;
-	border-left: 0;
-	border-bottom: 0;
-	margin-top: -20.5px;
-	margin-left: -41px;
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 50%;
+    width: 0;
+    height: 0;
+    border: 41px solid transparent;
+    border-right-color: #00aabb;
+    border-left: 0;
+    border-bottom: 0;
+    margin-top: -20.5px;
+    margin-left: -41px;
 }
 
 /*-------------------------------------Facilities*/
@@ -398,9 +437,7 @@ h5 {
     border-bottom-color: #252525
 }
 
-.modal-body {
-    
-}
+.modal-body {}
 
 .modal-footer {
     border-top-color: #252525;
