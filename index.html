@@ -8,6 +8,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
     <script src="https://kit.fontawesome.com/12bb6f902f.js" crossorigin="anonymous"></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="assets/favicon_io/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="assets/favicon_io/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="assets/favicon_io/favicon-16x16.png">
+    <link rel="manifest" href="assets/favicon_io/site.webmanifest">
     <link rel="stylesheet" href="assets/css/style.css" type="text/css" />
     <title>The Huntsman Pub | Drax, Selby</title>
 </head>
@@ -53,6 +57,17 @@
                               <i class="fab fa-tripadvisor nav-icon"></i>  
                             </a>
                         </li>
+
+                        <li class="nav-item">
+                            <a href="https://www.instagram.com/" target="_blank" class="nav-link">
+                                <i class="fab fa-instagram nav-icon"></i> 
+                            </a>
+                        </li>
+                        <li class="nav-item">
+                            <a href="https://twitter.com/?lang=en-gb" target="_blank" class="nav-link">
+                                <i class="fab fa-twitter nav-icon"></i>  
+                            </a>
+                        </li>
                     </ul>
                 </div>
             </nav>
@@ -64,14 +79,14 @@
         <section class="introduction" id="introduction">
             <h2 class="title title-colour">Welcome to </h2>
             <h1 class="text-uppercase huntsmanlogo section-bg-1 title-colour col-12">The Huntsman</h1>
-            <p>We are a traditional country pub in the idyllic Yorkshire village of Drax. Join us for a hearty meal, a drink and a chat! <br> We look forward to seeing you soon. </p>
-            <div class="container-fluid">
+            <p class="intro-para">We are a traditional country pub in the idyllic Yorkshire village of Drax. <br> Join us for a hearty meal, a drink and a chat! <br> We look forward to seeing you soon. </p>
+            <div class="container-fluid review-container">
                 <div class="row">
                     <div class="col-3">
                         <img class="review-image" src="assets/css/images/person_1.jpeg"></img>
                     </div>
                     <div class="col-3">
-                        <blockquote class="quote speech-bubble">The best pub I've ever been too! Coldest lager, tastiest ale and cheapest wine!</blockquote>
+                        <blockquote class="quote speech-bubble">The best pub ever! Coldest lager, tastiest ale, cheapest wine and most friendly atmosphere!</blockquote>
                     </div>
 
                     <div class="col-3">
@@ -82,7 +97,7 @@
                     </div>
                 </div>
             </div>
-            <div class="container modal-container">
+            <div class="container-fluid modal-container">
                 <h5>Be the first to hear about our news and events by signing up to our newsletter!</h5>
                 <!-- Button trigger modal -->
                 <button type="button" class="btn btn-modal btn-lg grow title" data-toggle="modal" data-target="#myModal">Sign up!</button>
@@ -91,22 +106,20 @@
     </div>
 
 
-
-
-    <div class="container-fluid section-bg-1">
+    <div class="container-fluid">
         <div class="row">
             <div class="col-6">
-                <div class="container-fluid hours-container section-bg-1">
+                <div class="container-fluid hours-container">
                     <section class="openinghours" id="openinghours">
 
 
                         <h2 class="title title-colour">Opening Hours</h2>
-                        <table class="table text-white">
+                        <table class="table">
                             <tbody>
                                 <tr>
                                     <!--No line-->
-                                    <td><i class="fas fa-calendar-day"></i></td>
-                                    <td><i class="far fa-clock"></i></td>
+                                    <td><i class="fas fa-calendar-day opening-icon"></i></td>
+                                    <td><i class="far fa-clock opening-icon"></i></td>
                                 </tr>
                                 <tr>
                                     <td>
@@ -147,7 +160,7 @@
 
             <!-----Events----->
             <div class="col-6">
-                <div class="container-fluid events-container section-bg-1">
+                <div class="container-fluid events-container">
                     <section class="events">
                         <h2 class="title title-colour">Upcoming Events</h2>
                         <table class="table events-table">
@@ -198,213 +211,212 @@
                 </div>
             </div>
         </div>
-    </div>
 
 
-    <section class="container-fluid food-hours-container section-bg-3">
-        <h2 class="title title-colour title-food">Food Serving Hours</h2>
+        <section class="container-fluid food-hours-container">
+            <h2 class="title title-colour title-food">Food Serving Hours</h2>
 
-        <div class="container-food-mobile">
-            <div class="row justify-content-center">
+            <div class="container-food-mobile">
+                <div class="row justify-content-center">
 
-                <div class="col-3">
-                    <div class="card food-card">
-                        <h3 class="card-header text-uppercase">
-                            Monday
-                        </h3>
-                        <div class="card-body">
-                            <i class="fas fa-ban ban-icon"></i>
-                        </div>
-                        <div class="card-footer">
-                            <p class="card-text">Closed</p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-3">
-                    <div class="card food-card">
-                        <h3 class="card-header text-uppercase">
-                            Tuesday
-                        </h3>
-                        <div class="card-body">
-                            <img class="food-image" src="assets/css/images/pizza.jpeg"></img>
-                        </div>
-                        <div class="card-footer">
-                            <h5>Pizza night!</h5>
-                            <p class="card-text">
-                                17:00 - 20:00
-                            </p>
+                    <div class="col-3">
+                        <div class="card food-card">
+                            <h3 class="card-header text-uppercase">
+                                Monday
+                            </h3>
+                            <div class="card-body">
+                                <i class="fas fa-ban ban-icon"></i>
+                            </div>
+                            <div class="card-footer">
+                                <p class="card-text">Closed</p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-3">
-                    <div class="card food-card">
-                        <h3 class="card-header text-uppercase">
-                            Wednesday
-                        </h3>
-                        <div class="card-body">
-                            <img class="food-image" src="assets/css/images/coffee.jpeg"></img>
-                        </div>
-                        <div class="card-footer">
-                            <h5>Coffee and a cake for £3.95!</h5>
-                            <p class="card-text">
-                                12:00 - 15:00 <br> 17:00 - 20:00
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-            </div>
-
-            <div class="row">
-
-                <div class="col-3">
-                    <div class="card food-card">
-                        <h3 class="card-header text-uppercase">
-                            Thursday
-                        </h3>
-                        <div class="card-body">
-                            <img class="food-image" src="assets/css/images/cheers.jpeg"></img>
-                        </div>
-                        <div class="card-footer">
-                            <h5>2-course meal £12.95!</h5>
-                            <p class="card-text">
-                                12:00 - 15:00 <br> 17:00 - 20:00
-                            </p>
+                    <div class="col-3">
+                        <div class="card food-card">
+                            <h3 class="card-header text-uppercase">
+                                Tuesday
+                            </h3>
+                            <div class="card-body">
+                                <img class="food-image" src="assets/css/images/pizza.jpeg"></img>
+                            </div>
+                            <div class="card-footer">
+                                <h5>Pizza night!</h5>
+                                <p class="card-text">
+                                    17:00 - 20:00
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-                <div class="col-3">
-                    <div class="card food-card">
-                        <h3 class="card-header text-uppercase">
-                            Friday
-                        </h3>
-                        <div class="card-body">
-                            <img class="food-image" src="assets/css/images/curry.jpeg"></img>
-                        </div>
-                        <div class="card-footer">
-                            <h5>Curry night!</h5>
-                            <p class="card-text">
-                                12:00 - 15:00 <br> 17:00 - 20:00
-                            </p>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-3">
-                    <div class="card food-card">
-                        <h3 class="card-header text-uppercase">
-                            Saturday
-                        </h3>
-                        <div class="card-body">
-                            <img class="food-image" src="assets/css/images/steak.jpeg"></img>
-                        </div>
-                        <div class="card-footer">
-                            <h5>2 for 1 steaks!</h5>
-                            <p class="card-text">
-                                12:00 - 20:00
-                            </p>
+                    <div class="col-3">
+                        <div class="card food-card">
+                            <h3 class="card-header text-uppercase">
+                                Wednesday
+                            </h3>
+                            <div class="card-body">
+                                <img class="food-image" src="assets/css/images/coffee.jpeg"></img>
+                            </div>
+                            <div class="card-footer">
+                                <h5>Coffee and a cake for £3.95!</h5>
+                                <p class="card-text">
+                                    12:00 - 15:00 <br> 17:00 - 20:00
+                                </p>
+                            </div>
                         </div>
                     </div>
+
                 </div>
 
-                <div class="col-3">
-                    <div class="card food-card">
-                        <h3 class="card-header text-uppercase">
-                            Sunday
-                        </h3>
-                        <div class="card-body">
-                            <img class="food-image" src="assets/css/images/roast.jpeg"></img>
-                        </div>
-                        <div class="card-footer">
-                            <h5>Sunday dinner</h5>
-                            <p class="card-text">
-                                12:00 - 17:00
-                            </p>
+                <div class="row">
+
+                    <div class="col-3">
+                        <div class="card food-card">
+                            <h3 class="card-header text-uppercase">
+                                Thursday
+                            </h3>
+                            <div class="card-body">
+                                <img class="food-image" src="assets/css/images/cheers.jpeg"></img>
+                            </div>
+                            <div class="card-footer">
+                                <h5>2-course meal £12.95!</h5>
+                                <p class="card-text">
+                                    12:00 - 15:00 <br> 17:00 - 20:00
+                                </p>
+                            </div>
                         </div>
                     </div>
-                </div>
 
-            </div>
-        </div>
+                    <div class="col-3">
+                        <div class="card food-card">
+                            <h3 class="card-header text-uppercase">
+                                Friday
+                            </h3>
+                            <div class="card-body">
+                                <img class="food-image" src="assets/css/images/curry.jpeg"></img>
+                            </div>
+                            <div class="card-footer">
+                                <h5>Curry night!</h5>
+                                <p class="card-text">
+                                    12:00 - 15:00 <br> 17:00 - 20:00
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-    </section>
+                    <div class="col-3">
+                        <div class="card food-card">
+                            <h3 class="card-header text-uppercase">
+                                Saturday
+                            </h3>
+                            <div class="card-body">
+                                <img class="food-image" src="assets/css/images/steak.jpeg"></img>
+                            </div>
+                            <div class="card-footer">
+                                <h5>2 for 1 steaks!</h5>
+                                <p class="card-text">
+                                    12:00 - 20:00
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
+                    <div class="col-3">
+                        <div class="card food-card">
+                            <h3 class="card-header text-uppercase">
+                                Sunday
+                            </h3>
+                            <div class="card-body">
+                                <img class="food-image" src="assets/css/images/roast.jpeg"></img>
+                            </div>
+                            <div class="card-footer">
+                                <h5>Sunday dinner</h5>
+                                <p class="card-text">
+                                    12:00 - 17:00
+                                </p>
+                            </div>
+                        </div>
+                    </div>
 
-    <div class="container-fluid facilities-container section-bg-2">
-        <section class="facilities">
-            <h2 class="title facilities-title">Facilities</h2>
-            <div class="row facilities-row">
-                <div class="col-4 facilities-box">
-                    <i class="fa fa-car facilities-icon" data-toggle="tooltip" data-placement="right" title="Car park with CCTV. 46 car parking spaces available"></i>
-                    <p>Car park</p>
-                </div>
-                <div class="col-4 facilities-box">
-                    <i class="fa fa-wheelchair facilities-icon" data-toggle="tooltip" data-placement="right" title="Disabled parking spaces and accesbility ramps."></i>
-                    <p>Accessibilty</p>
-                </div>
-                <div class="col-4 facilities-box">
-                    <i class="fa fa-paw facilities-icon" data-toggle="tooltip" data-placement="right" title="Furry friends welcome! Dog biscuits and water bowls available."></i>
-                    <p>Dog friendly</p>
                 </div>
             </div>
 
-            <div class="row facilities-row">
-                <div class="col-4 facilities-box">
-                    <i class="fas fa-baby facilities-icon" data-toggle="tooltip" data-placement="right" title="Children welcome until 8pm or 9pm with a meal. Highchairs available."></i>
-                    <p>Family friendly</p>
-                </div>
-                <div class="col-4 facilities-box">
-                    <i class="fa fa-cloud-sun facilities-icon" data-toggle="tooltip" data-placement="right" title="Enjoy a beer in the sunshine, or under an umbrella in the rain under an umbrella."></i>
-                    <p>Beer garden</p>
-                </div>
-                <div class="col-4 facilities-box">
-                    <i class="fa fa-smoking facilities-icon" data-toggle="tooltip" data-placement="right" title="Including heaters and umbrellas for all weather."></i>
-                    <p>Smoking area</p>
-                </div>
-            </div>
-
-            <div class="row facilities-row">
-                <div class="col-4 facilities-box">
-                    <div class="dart-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" data-toggle="tooltip" data-placement="right" title="If your numeracy skills aren't up to scratch don't worry; we have a points counter!" x="0px" y="0px" width="55" height="55" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#252525"><path d="M86,6.88c-43.62608,0 -79.12,35.49392 -79.12,79.12c0,43.62608 35.49392,79.12 79.12,79.12c43.62608,0 79.12,-35.49392 79.12,-79.12c0,-15.81368 -4.67963,-30.54898 -12.70515,-42.9261l-3.07047,3.07047l-2.01562,2.01563h-2.84875h-6.04687l-9.39953,9.39953c5.40424,8.15624 8.5664,17.92439 8.5664,28.44047c0,28.49696 -23.10304,51.6 -51.6,51.6c-28.49696,0 -51.6,-23.10304 -51.6,-51.6c0,-28.49696 23.10304,-51.6 51.6,-51.6c10.51608,0 20.28423,3.16216 28.44047,8.5664l9.39953,-9.39953v-6.04687v-2.84875l2.01563,-2.01562l3.05703,-3.05703c-12.37024,-8.02896 -27.09897,-12.71859 -42.91265,-12.71859zM147.92,10.32l-17.2,17.2v8.89563l-47.15219,47.15219c-0.89867,0.86281 -1.26068,2.14404 -0.94641,3.34956c0.31427,1.20552 1.2557,2.14696 2.46122,2.46122c1.20552,0.31427 2.48675,-0.04774 3.34956,-0.94641l47.15219,-47.15219h8.89563l17.2,-17.2h-13.76zM86,55.04c-17.06928,0 -30.96,13.89072 -30.96,30.96c0,17.06928 13.89072,30.96 30.96,30.96c17.06928,0 30.96,-13.89072 30.96,-30.96c0,-4.77128 -1.11703,-9.27129 -3.05031,-13.30985l-20.61312,20.60641c-1.94704,1.95048 -4.54112,3.02344 -7.29656,3.02344c-2.75544,0 -5.34952,-1.07296 -7.29656,-3.02344c-1.95048,-1.94704 -3.02344,-4.54112 -3.02344,-7.29656c0,-2.75544 1.07296,-5.34952 3.02344,-7.29656l20.61313,-20.61312c-4.03512,-1.9436 -8.54528,-3.05031 -13.31656,-3.05031z"></path></g></g></svg>
-                    </div>
-                    <p>Dart board</p>
-                </div>
-                <div class="col-4 facilities-box">
-                    <div class="billiards-icon">
-                        <svg xmlns="http://www.w3.org/2000/svg" data-toggle="tooltip" data-placement="right" title="One pool table available, 50p per game. Free pool table on Thursday 12pm-5pm!" x="0px" y="0px" width="60" height="60" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#252525"><path d="M42.20215,21.5v0.08398c-11.16427,0.42451 -20.19365,9.45389 -20.61816,20.61816h-0.08398v0.79785v107.5h10.75v-89.02344c3.18095,1.86625 6.82132,3.02344 10.75,3.02344v86h10.75v-86c0,0 0.07411,-2.45529 -1.23877,-5.08105c-1.31288,-2.62576 -5.03206,-5.66895 -9.51123,-5.66895c-5.99279,0 -10.75,-4.75721 -10.75,-10.75c0,-5.99279 4.75721,-10.75 10.75,-10.75c5.99279,0 10.75,4.75721 10.75,10.75c0,4.47917 3.04318,8.19835 5.66895,9.51123c2.62576,1.31288 5.08105,1.23877 5.08105,1.23877h86v-10.75h-86c0,-3.92868 -1.15718,-7.56905 -3.02344,-10.75h89.02344v-10.75h-107.5zM80.625,64.5c-8.84193,0 -16.125,7.28307 -16.125,16.125c0,8.84193 7.28307,16.125 16.125,16.125c8.84193,0 16.125,-7.28307 16.125,-16.125c0,-8.84193 -7.28307,-16.125 -16.125,-16.125zM80.625,75.25c3.0322,0 5.375,2.3428 5.375,5.375c0,3.0322 -2.3428,5.375 -5.375,5.375c-3.0322, 0 -5.375,-2.3428 -5.375,-5.375c0,-3.0322 2.3428,-5.375 5.375,-5.375zM134.375,75.25c-8.84193,0 -16.125,7.28307 -16.125,16.125c0,8.84193 7.28307,16.125 16.125,16.125c8.84193,0 16.125,-7.28307 16.125,-16.125c0,-8.84193 -7.28307,-16.125 -16.125,-16.125zM134.375,86c3.0322,0 5.375,2.3428 5.375,5.375c0,3.0322 -2.3428,5.375 -5.375,5.375c-3.0322,0 -5.375,-2.3428 -5.375,-5.375c0,-3.0322 2.3428,-5.375 5.375,-5.375zM102.125,118.25c-8.84193,0 -16.125,7.28307 -16.125,16.125c0,8.84193 7.28307,16.125 16.125,16.125c8.84193,0 16.125,-7.28307 16.125,-16.125c0,-8.84193 -7.28307,-16.125 -16.125,-16.125zM102.125,129c3.0322,0 5.375,2.3428 5.375,5.375c0,3.0322 -2.3428,5.375 -5.375,5.375c-3.0322,0 -5.375,-2.3428 -5.375,-5.375c0,-3.0322 2.3428,-5.375 5.375,-5.375z"></path></g></g></svg>
-                    </div>
-                    <p>Pool table</p>
-                </div>
-                <div class="col-4 facilities-box">
-                    <i class="fa fa-microphone facilities-icon" data-toggle="tooltip" data-placement="right" title="Only in use twice a year for our biannaul karaoke competitions!"></i>
-                    <p>Karaoke</p>
-                </div>
-            </div>
-
-            <div class="row facilities-row">
-                <div class="col-4 facilities-box">
-                    <i class="fa fa-music facilities-icon" data-toggle="tooltip" data-placement="right" title="Unwind with a drink and some live music. One show a month."></i>
-                    <p>Live music</p>
-                </div>
-                <div class="col-4 facilities-box">
-                    <i class="fa fa-wifi facilities-icon" data-toggle="tooltip" data-placement="right" title="Need the WiFi password? Askatthebar."></i>
-                    <p>Free wifi</p>
-                </div>
-                <div class="col-4 facilities-box">
-                    <i class="fa fa-beer facilities-icon" data-toggle="tooltip" data-placement="right" title="Try out a new ale every fortnight. Recommendations encouraged."></i>
-                    <p>Real ale</p>
-                </div>
-            </div>
         </section>
-    </div>
-    <!-----/.introduction----->
 
 
-    <!-----Events---
+        <div class="container-fluid facilities-container">
+            <section class="facilities">
+                <h2 class="title facilities-title">Facilities</h2>
+                <div class="row facilities-row">
+                    <div class="col-4 facilities-box">
+                        <i class="fa fa-car facilities-icon" data-toggle="tooltip" data-placement="right" title="Car park with CCTV. 46 car parking spaces available"></i>
+                        <p>Car park</p>
+                    </div>
+                    <div class="col-4 facilities-box">
+                        <i class="fa fa-wheelchair facilities-icon" data-toggle="tooltip" data-placement="right" title="Disabled parking spaces and accesbility ramps."></i>
+                        <p>Accessibilty</p>
+                    </div>
+                    <div class="col-4 facilities-box">
+                        <i class="fa fa-paw facilities-icon" data-toggle="tooltip" data-placement="right" title="Furry friends welcome! Dog biscuits and water bowls available."></i>
+                        <p>Dog friendly</p>
+                    </div>
+                </div>
+
+                <div class="row facilities-row">
+                    <div class="col-4 facilities-box">
+                        <i class="fas fa-baby facilities-icon" data-toggle="tooltip" data-placement="right" title="Children welcome until 8pm or 9pm with a meal. Highchairs available."></i>
+                        <p>Family friendly</p>
+                    </div>
+                    <div class="col-4 facilities-box">
+                        <i class="fa fa-cloud-sun facilities-icon" data-toggle="tooltip" data-placement="right" title="Enjoy a beer in the sunshine, or under an umbrella in the rain under an umbrella."></i>
+                        <p>Beer garden</p>
+                    </div>
+                    <div class="col-4 facilities-box">
+                        <i class="fa fa-smoking facilities-icon" data-toggle="tooltip" data-placement="right" title="Including heaters and umbrellas for all weather."></i>
+                        <p>Smoking area</p>
+                    </div>
+                </div>
+
+                <div class="row facilities-row">
+                    <div class="col-4 facilities-box">
+                        <div class="dart-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" data-toggle="tooltip" data-placement="right" title="If your numeracy skills aren't up to scratch don't worry; we have a points counter!" x="0px" y="0px" width="55" height="55" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#252525"><path d="M86,6.88c-43.62608,0 -79.12,35.49392 -79.12,79.12c0,43.62608 35.49392,79.12 79.12,79.12c43.62608,0 79.12,-35.49392 79.12,-79.12c0,-15.81368 -4.67963,-30.54898 -12.70515,-42.9261l-3.07047,3.07047l-2.01562,2.01563h-2.84875h-6.04687l-9.39953,9.39953c5.40424,8.15624 8.5664,17.92439 8.5664,28.44047c0,28.49696 -23.10304,51.6 -51.6,51.6c-28.49696,0 -51.6,-23.10304 -51.6,-51.6c0,-28.49696 23.10304,-51.6 51.6,-51.6c10.51608,0 20.28423,3.16216 28.44047,8.5664l9.39953,-9.39953v-6.04687v-2.84875l2.01563,-2.01562l3.05703,-3.05703c-12.37024,-8.02896 -27.09897,-12.71859 -42.91265,-12.71859zM147.92,10.32l-17.2,17.2v8.89563l-47.15219,47.15219c-0.89867,0.86281 -1.26068,2.14404 -0.94641,3.34956c0.31427,1.20552 1.2557,2.14696 2.46122,2.46122c1.20552,0.31427 2.48675,-0.04774 3.34956,-0.94641l47.15219,-47.15219h8.89563l17.2,-17.2h-13.76zM86,55.04c-17.06928,0 -30.96,13.89072 -30.96,30.96c0,17.06928 13.89072,30.96 30.96,30.96c17.06928,0 30.96,-13.89072 30.96,-30.96c0,-4.77128 -1.11703,-9.27129 -3.05031,-13.30985l-20.61312,20.60641c-1.94704,1.95048 -4.54112,3.02344 -7.29656,3.02344c-2.75544,0 -5.34952,-1.07296 -7.29656,-3.02344c-1.95048,-1.94704 -3.02344,-4.54112 -3.02344,-7.29656c0,-2.75544 1.07296,-5.34952 3.02344,-7.29656l20.61313,-20.61312c-4.03512,-1.9436 -8.54528,-3.05031 -13.31656,-3.05031z"></path></g></g></svg>
+                        </div>
+                        <p>Dart board</p>
+                    </div>
+                    <div class="col-4 facilities-box">
+                        <div class="billiards-icon">
+                            <svg xmlns="http://www.w3.org/2000/svg" data-toggle="tooltip" data-placement="right" title="One pool table available, 50p per game. Free pool table on Thursday 12pm-5pm!" x="0px" y="0px" width="60" height="60" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#252525"><path d="M42.20215,21.5v0.08398c-11.16427,0.42451 -20.19365,9.45389 -20.61816,20.61816h-0.08398v0.79785v107.5h10.75v-89.02344c3.18095,1.86625 6.82132,3.02344 10.75,3.02344v86h10.75v-86c0,0 0.07411,-2.45529 -1.23877,-5.08105c-1.31288,-2.62576 -5.03206,-5.66895 -9.51123,-5.66895c-5.99279,0 -10.75,-4.75721 -10.75,-10.75c0,-5.99279 4.75721,-10.75 10.75,-10.75c5.99279,0 10.75,4.75721 10.75,10.75c0,4.47917 3.04318,8.19835 5.66895,9.51123c2.62576,1.31288 5.08105,1.23877 5.08105,1.23877h86v-10.75h-86c0,-3.92868 -1.15718,-7.56905 -3.02344,-10.75h89.02344v-10.75h-107.5zM80.625,64.5c-8.84193,0 -16.125,7.28307 -16.125,16.125c0,8.84193 7.28307,16.125 16.125,16.125c8.84193,0 16.125,-7.28307 16.125,-16.125c0,-8.84193 -7.28307,-16.125 -16.125,-16.125zM80.625,75.25c3.0322,0 5.375,2.3428 5.375,5.375c0,3.0322 -2.3428,5.375 -5.375,5.375c-3.0322, 0 -5.375,-2.3428 -5.375,-5.375c0,-3.0322 2.3428,-5.375 5.375,-5.375zM134.375,75.25c-8.84193,0 -16.125,7.28307 -16.125,16.125c0,8.84193 7.28307,16.125 16.125,16.125c8.84193,0 16.125,-7.28307 16.125,-16.125c0,-8.84193 -7.28307,-16.125 -16.125,-16.125zM134.375,86c3.0322,0 5.375,2.3428 5.375,5.375c0,3.0322 -2.3428,5.375 -5.375,5.375c-3.0322,0 -5.375,-2.3428 -5.375,-5.375c0,-3.0322 2.3428,-5.375 5.375,-5.375zM102.125,118.25c-8.84193,0 -16.125,7.28307 -16.125,16.125c0,8.84193 7.28307,16.125 16.125,16.125c8.84193,0 16.125,-7.28307 16.125,-16.125c0,-8.84193 -7.28307,-16.125 -16.125,-16.125zM102.125,129c3.0322,0 5.375,2.3428 5.375,5.375c0,3.0322 -2.3428,5.375 -5.375,5.375c-3.0322,0 -5.375,-2.3428 -5.375,-5.375c0,-3.0322 2.3428,-5.375 5.375,-5.375z"></path></g></g></svg>
+                        </div>
+                        <p>Pool table</p>
+                    </div>
+                    <div class="col-4 facilities-box">
+                        <i class="fa fa-microphone facilities-icon" data-toggle="tooltip" data-placement="right" title="Only in use twice a year for our biannaul karaoke competitions!"></i>
+                        <p>Karaoke</p>
+                    </div>
+                </div>
+
+                <div class="row facilities-row">
+                    <div class="col-4 facilities-box">
+                        <i class="fa fa-music facilities-icon" data-toggle="tooltip" data-placement="right" title="Unwind with a drink and some live music. One show a month."></i>
+                        <p>Live music</p>
+                    </div>
+                    <div class="col-4 facilities-box">
+                        <i class="fa fa-wifi facilities-icon" data-toggle="tooltip" data-placement="right" title="Need the WiFi password? Askatthebar."></i>
+                        <p>Free wifi</p>
+                    </div>
+                    <div class="col-4 facilities-box">
+                        <i class="fa fa-beer facilities-icon" data-toggle="tooltip" data-placement="right" title="Try out a new ale every fortnight. Recommendations encouraged."></i>
+                        <p>Real ale</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+        <!-----/.introduction----->
+
+
+        <!-----Events---
     <div class="container-fluid events-container section-bg-1">
         <section class="events">
             <h2 class="title title-colour">Upcoming Events</h2>
@@ -457,46 +469,46 @@
     <!-----/.events----->
 
 
-    <!-----Food and Drink----->
-    <div class="container-fluid food-container section-bg-2">
-        <section class="menu" id="foodanddrink">
-            <div class="row">
-                <div class="col-6">
-                    <h2 class="title menu-title">Download our menu here</h2>
-                    <a href="assets/huntsman_menu.pdf" target="_blank" class="cv-pdf">
+        <!-----Food and Drink----->
+        <div class="container-fluid food-container">
+            <section class="menu" id="foodanddrink">
+                <div class="row">
+                    <div class="col-6">
+                        <h2 class="title menu-title">Download our menu here</h2>
+                        <a href="assets/huntsman_menu.pdf" target="_blank" class="cv-pdf">
                         <i class="fa fa-download menu-download footer-icon" aria-hidden="true"></i>
                         <span class="sr-only">Download link.</span>
                     </a>
 
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
-                        <div class="carousel-inner">
-                            <div class="carousel-item active">
-                                <img class="d-block w-100" src="assets/css/images/starter.jpeg">
+                        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                                <div class="carousel-item active">
+                                    <img class="d-block w-100" src="assets/css/images/starter.jpeg">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/css/images/main.jpeg">
+                                </div>
+                                <div class="carousel-item">
+                                    <img class="d-block w-100" src="assets/css/images/desert.jpeg">
+                                </div>
                             </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="assets/css/images/main.jpeg">
-                            </div>
-                            <div class="carousel-item">
-                                <img class="d-block w-100" src="assets/css/images/desert.jpeg">
-                            </div>
-                        </div>
-                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
     <span class="carousel-control-prev-icon" aria-hidden="true"></span>
     <span class="sr-only">Previous</span>
   </a>
-                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
     <span class="carousel-control-next-icon" aria-hidden="true"></span>
     <span class="sr-only">Next</span>
   </a>
-                    </div>
+                        </div>
 
-                </div>
-                <div class="col-6">
-                    <h2 class="title">Request a booking</h2>
-                    <form class="booking">
-                        <div class="form-group">
-                            <label for="numberofpeople">Number of People</label>
-                            <select class="form-control" id="numberofpeople">
+                    </div>
+                    <div class="col-6">
+                        <h2 class="title">Request a booking</h2>
+                        <form class="booking">
+                            <div class="form-group">
+                                <label for="numberofpeople">Number of People</label>
+                                <select class="form-control" id="numberofpeople">
                       <option>1</option>
                       <option>2</option>
                       <option>3</option>
@@ -504,177 +516,191 @@
                       <option>5</option>
                       <option>6</option>
                     </select>
-                        </div>
+                            </div>
 
-                        <div class="form-group">
-                            <label for="formdate">Date</label>
-                            <input type="text" id="formdate" placeholder="dd/mm/yy" class="form-control">
-                        </div>
+                            <div class="form-group">
+                                <label for="formdate">Date</label>
+                                <input type="text" id="formdate" placeholder="dd/mm/yy" class="form-control">
+                            </div>
 
-                        <div class="form-group">
-                            <label for="formtime">Time</label>
-                            <input type="text" id="formtime" placeholder="E.g. 13:00" class="form-control">
-                        </div>
+                            <div class="form-group">
+                                <label for="formtime">Time</label>
+                                <input type="text" id="formtime" placeholder="E.g. 13:00" class="form-control">
+                            </div>
 
-                        <div class="form-group">
-                            <label for="formcomments">Additional Comments</label>
-                            <input type="text" id="formcomments" class="form-control">
-                        </div>
+                            <div class="form-group">
+                                <label for="formcomments">Additional Comments</label>
+                                <input type="text" id="formcomments" class="form-control">
+                            </div>
 
-                        <div class="form-group">
-                            <label for="formemail">Email Address</label>
-                            <input type="email" id="formemail" placeholder="email@example.com" class="form-control">
-                        </div>
+                            <div class="form-group">
+                                <label for="formemail">Email Address</label>
+                                <input type="email" id="formemail" placeholder="email@example.com" class="form-control">
+                            </div>
 
-                        <button class="btn btn-modal btn-booking section-bg-3" type="submit">Submit</button>
-                    </form>
-                </div>
-            </div>
-
-        </section>
-    </div>
-
-    <div class="container-fluid drink-container section-bg-1">
-        <section class="ales">
-            <h2 class="title title-colour">Guest Ales</h2>
-            <div class="row">
-                <div class="col-md-6 ">
-                    <div class="container-fluid image-container">
-                        <img class="ale-image" src="assets/css/images/beer_landlord.png"></img>
-                    </div>
-                    <div class="container ale-container">
-                        <h4 class="title">Timothy Taylor's</h4>
-                        <h3 class="text-uppercase title-colour title">Landlord</h3>
-                        <h5>Tasting notes</h5>
-                        <table class="table ale-table">
-                            <tbody>
-                                <tr>
-                                    <td class="title ale-table-cell">Sight</td>
-                                    <td><i class="fa fa-eye ale-icon"></i></td>
-                                    <td class="ale-table-cell">Pale amber</td>
-                                </tr>
-                                <tr>
-                                    <td class="title ale-table-cell">Smell</td>
-                                    <td><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M58.48,13.76c0,1.43781 -0.88687,6.26188 -1.505,9.245c-7.095,33.59375 -17.46875,42.81188 -25.9075,50.2025c-6.03344,5.28094 -10.4275,9.05688 -10.4275,20.3175c0,9.89 10.11844,19.995 19.995,19.995c12.88656,0 18.55719,5.44219 24.08,10.75c5.2675,5.06594 10.23938,9.89 21.285,9.89c11.04563,0 16.0175,-4.82406 21.285,-9.89c5.52281,-5.30781 11.19344,-10.75 24.08,-10.75c9.87656,0 19.995,-10.105 19.995,-19.995c0,-11.26062 -4.32687,-15.07687 -10.4275,-20.425c-8.37156,-7.33687 -18.8125,-16.48781 -25.9075,-50.095c-0.57781,-2.6875 -1.505,-7.55187 -1.505,-9.245h-6.88c0,2.91594 1.34375,9.47344 1.6125,10.75c7.57875,35.83781 19.44406,46.21156 28.165,53.8575c5.68406,4.98531 8.0625,7.01438 8.0625,15.1575c0,6.11406 -7.00094,13.115 -13.115,13.115c-15.65469,0 -22.92437,7.01438 -28.81,12.685c-4.97187,4.78375 -8.2775,7.955 -16.555,7.955c-8.2775,0 -11.58312,-3.17125 -16.555,-7.955c-5.89906,-5.67062 -13.15531,-12.685 -28.81,-12.685c-6.10062,0 -13.115,-7.00094 -13.115,-13.115c0,-8.12969 2.31125,-10.22594 8.0625,-15.265c8.65375,-7.57875 20.58625,-17.89875 28.165,-53.75c0.26875,-1.31687 1.6125,-8.08937 1.6125,-10.75zM51.6,129.3225l-12.7925,12.685l4.945,4.945l4.4075,-4.515v15.8025h6.88v-15.8025l4.4075,4.515l4.945,-4.945zM120.4,129.3225l-12.7925,12.685l4.945,4.945l4.4075,-4.515v15.8025h6.88v-15.8025l4.4075,4.515l4.945,-4.945z"></path></g></g></svg>
-                                        <td class="ale-table-cell">Citrus, hoppy, fruity</td>
-                                </tr>
-                                <tr>
-                                    <td class="title ale-table-cell">Taste</td>
-                                    <td><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M68.8,55.04c-9.7825,0 -21.86281,4.50156 -33.97,9.245c-11.89219,4.66281 -23.70375,9.675 -31.605,11.395c-0.02687,0.01344 -0.08062,-0.01344 -0.1075,0c-0.1075,0 -0.215,0 -0.3225,0c-0.47031,0.12094 -0.91375,0.33594 -1.29,0.645c-0.06719,0.02688 -0.14781,0.06719 -0.215,0.1075c-0.12094,0.09406 -0.22844,0.20156 -0.3225,0.3225c-0.06719,0.02688 -0.14781,0.06719 -0.215,0.1075c0,0.04031 0,0.06719 0,0.1075c-0.08062,0.06719 -0.14781,0.13438 -0.215,0.215c0,0.04031 0,0.06719 0,0.1075c-0.13437,0.20156 -0.24187,0.41656 -0.3225,0.645c-0.04031,0.04031 -0.06719,0.06719 -0.1075,0.1075c0,0.06719 0,0.14781 0,0.215c-0.05375,0.17469 -0.08062,0.34938 -0.1075,0.5375c0,0.04031 0,0.06719 0,0.1075c0,0.06719 0,0.14781 0,0.215c0,0.04031 0,0.06719 0,0.1075c0,0.06719 0,0.14781 0,0.215c0,0.04031 0,0.06719 0,0.1075c0,0.06719 0,0.14781 0,0.215c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0,0.06719 0,0.14781 0,0.215c0.02687,0.06719 0.06719,0.14781 0.1075,0.215c0.02688,0.06719 0.06719,0.14781 0.1075,0.215c0,0.04031 0,0.06719 0,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.02688,0.06719 0.06719,0.14781 0.1075,0.215c0,0.04031 0,0.06719 0,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.02688,0.06719 0.06719,0.14781 0.1075,0.215c0.06719,0.04031 0.14781,0.08063 0.215,0.1075c0,0.04031 0,0.06719 0,0.1075c0.06719,0.04031 0.14781,0.08063 0.215,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.06719,0.04031 0.14781,0.08063 0.215,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.04031,0 0.06719,0 0.1075,0c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.06719,0.04031 0.14781,0.08063 0.215,0.1075c7.095,2.86219 17.7375,13.88094 31.2825,24.4025c13.545,10.52156 30.6375,20.5325 52.5675,20.5325c21.93,0 39.13,-9.9975 52.675,-20.5325c13.545,-10.535 24.12031,-21.55375 31.175,-24.4025c0.14781,-0.06719 0.29563,-0.13437 0.43,-0.215c0.1075,-0.02687 0.215,-0.06719 0.3225,-0.1075c1.57219,-0.76594 2.31125,-2.58 1.73344,-4.23281c-0.56437,-1.63937 -2.28437,-2.59344 -3.99094,-2.21719c-7.83406,-1.69312 -19.47094,-6.57094 -31.175,-11.18c-12.12062,-4.77031 -24.21437,-9.3525 -33.97,-9.3525c-4.58219,0 -9.04344,1.935 -12.685,3.7625c-2.55312,1.27656 -3.48031,1.92156 -4.515,2.58c-1.03469,-0.65844 -1.96187,-1.30344 -4.515,-2.58c-3.64156,-1.8275 -8.10281,-3.7625 -12.685,-3.7625zM68.8,61.92c2.28438,0 6.43656,1.505 9.675,3.1175c3.23844,1.6125 5.59,3.225 5.59,3.225c1.16906,0.79281 2.70094,0.79281 3.87,0c0,0 2.35156,-1.6125 5.59,-3.225c3.23844,-1.6125 7.39063,-3.1175 9.675,-3.1175c7.43094,0 19.51125,4.09844 31.4975,8.815c7.78031,3.06375 15.19781,5.95281 22.145,8.2775c-14.60656,3.99094 -42.42219,10.4275 -70.8425,10.4275c-28.55469,0 -56.50469,-6.43656 -71.0575,-10.4275c7.01438,-2.365 14.52594,-5.30781 22.36,-8.385c11.97281,-4.68969 23.98594,-8.7075 31.4975,-8.7075zM21.6075,87.72c15.96375,3.93719 39.78844,8.6 64.3925,8.6c24.71156,0 48.64375,-4.64937 64.6075,-8.6c-4.95844,4.3 -10.29312,9.03 -16.2325,13.6525c-12.99406,10.105 -28.51437,19.0275 -48.375,19.0275c-19.86062,0 -35.38094,-8.93594 -48.375,-19.0275c-5.89906,-4.58219 -11.09937,-9.36594 -16.0175,-13.6525z"></path></g></g></svg>
-                                        <td class="ale-table-cell">Full, sweet, lingering hop</td>
-                                </tr>
-                            </tbody>
-                        </table>
+                            <button class="btn btn-modal btn-booking section-bg-3" type="submit">Submit</button>
+                        </form>
                     </div>
                 </div>
 
-                <div class="col-md-6">
-                    <div class="container-fluid image-container">
-                        <img class="ale-image" src="assets/css/images/beer_cascade.png"></img>
+            </section>
+        </div>
+
+        <div class="container-fluid drink-container">
+            <section class="ales">
+                <h2 class="title title-colour">Guest Ales</h2>
+                <div class="row">
+                    <div class="col-md-6 ">
+                        <div class="container-fluid image-container">
+                            <img class="ale-image" src="assets/css/images/beer_landlord.png"></img>
+                        </div>
+                        <div class="container ale-container">
+                            <h4 class="title">Timothy Taylor's</h4>
+                            <h3 class="text-uppercase title-colour title">Landlord</h3>
+                            <h5>Tasting notes</h5>
+                            <table class="table ale-table">
+                                <tbody>
+                                    <tr>
+                                        <td class="title ale-table-cell">Sight</td>
+                                        <td><i class="fa fa-eye ale-icon"></i></td>
+                                        <td class="ale-table-cell">Pale amber</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="title ale-table-cell">Smell</td>
+                                        <td><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M58.48,13.76c0,1.43781 -0.88687,6.26188 -1.505,9.245c-7.095,33.59375 -17.46875,42.81188 -25.9075,50.2025c-6.03344,5.28094 -10.4275,9.05688 -10.4275,20.3175c0,9.89 10.11844,19.995 19.995,19.995c12.88656,0 18.55719,5.44219 24.08,10.75c5.2675,5.06594 10.23938,9.89 21.285,9.89c11.04563,0 16.0175,-4.82406 21.285,-9.89c5.52281,-5.30781 11.19344,-10.75 24.08,-10.75c9.87656,0 19.995,-10.105 19.995,-19.995c0,-11.26062 -4.32687,-15.07687 -10.4275,-20.425c-8.37156,-7.33687 -18.8125,-16.48781 -25.9075,-50.095c-0.57781,-2.6875 -1.505,-7.55187 -1.505,-9.245h-6.88c0,2.91594 1.34375,9.47344 1.6125,10.75c7.57875,35.83781 19.44406,46.21156 28.165,53.8575c5.68406,4.98531 8.0625,7.01438 8.0625,15.1575c0,6.11406 -7.00094,13.115 -13.115,13.115c-15.65469,0 -22.92437,7.01438 -28.81,12.685c-4.97187,4.78375 -8.2775,7.955 -16.555,7.955c-8.2775,0 -11.58312,-3.17125 -16.555,-7.955c-5.89906,-5.67062 -13.15531,-12.685 -28.81,-12.685c-6.10062,0 -13.115,-7.00094 -13.115,-13.115c0,-8.12969 2.31125,-10.22594 8.0625,-15.265c8.65375,-7.57875 20.58625,-17.89875 28.165,-53.75c0.26875,-1.31687 1.6125,-8.08937 1.6125,-10.75zM51.6,129.3225l-12.7925,12.685l4.945,4.945l4.4075,-4.515v15.8025h6.88v-15.8025l4.4075,4.515l4.945,-4.945zM120.4,129.3225l-12.7925,12.685l4.945,4.945l4.4075,-4.515v15.8025h6.88v-15.8025l4.4075,4.515l4.945,-4.945z"></path></g></g></svg>
+                                            <td class="ale-table-cell">Citrus, hoppy, fruity</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="title ale-table-cell">Taste</td>
+                                        <td><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M68.8,55.04c-9.7825,0 -21.86281,4.50156 -33.97,9.245c-11.89219,4.66281 -23.70375,9.675 -31.605,11.395c-0.02687,0.01344 -0.08062,-0.01344 -0.1075,0c-0.1075,0 -0.215,0 -0.3225,0c-0.47031,0.12094 -0.91375,0.33594 -1.29,0.645c-0.06719,0.02688 -0.14781,0.06719 -0.215,0.1075c-0.12094,0.09406 -0.22844,0.20156 -0.3225,0.3225c-0.06719,0.02688 -0.14781,0.06719 -0.215,0.1075c0,0.04031 0,0.06719 0,0.1075c-0.08062,0.06719 -0.14781,0.13438 -0.215,0.215c0,0.04031 0,0.06719 0,0.1075c-0.13437,0.20156 -0.24187,0.41656 -0.3225,0.645c-0.04031,0.04031 -0.06719,0.06719 -0.1075,0.1075c0,0.06719 0,0.14781 0,0.215c-0.05375,0.17469 -0.08062,0.34938 -0.1075,0.5375c0,0.04031 0,0.06719 0,0.1075c0,0.06719 0,0.14781 0,0.215c0,0.04031 0,0.06719 0,0.1075c0,0.06719 0,0.14781 0,0.215c0,0.04031 0,0.06719 0,0.1075c0,0.06719 0,0.14781 0,0.215c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0,0.06719 0,0.14781 0,0.215c0.02687,0.06719 0.06719,0.14781 0.1075,0.215c0.02688,0.06719 0.06719,0.14781 0.1075,0.215c0,0.04031 0,0.06719 0,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.02688,0.06719 0.06719,0.14781 0.1075,0.215c0,0.04031 0,0.06719 0,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.02688,0.06719 0.06719,0.14781 0.1075,0.215c0.06719,0.04031 0.14781,0.08063 0.215,0.1075c0,0.04031 0,0.06719 0,0.1075c0.06719,0.04031 0.14781,0.08063 0.215,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.06719,0.04031 0.14781,0.08063 0.215,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.04031,0 0.06719,0 0.1075,0c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.06719,0.04031 0.14781,0.08063 0.215,0.1075c7.095,2.86219 17.7375,13.88094 31.2825,24.4025c13.545,10.52156 30.6375,20.5325 52.5675,20.5325c21.93,0 39.13,-9.9975 52.675,-20.5325c13.545,-10.535 24.12031,-21.55375 31.175,-24.4025c0.14781,-0.06719 0.29563,-0.13437 0.43,-0.215c0.1075,-0.02687 0.215,-0.06719 0.3225,-0.1075c1.57219,-0.76594 2.31125,-2.58 1.73344,-4.23281c-0.56437,-1.63937 -2.28437,-2.59344 -3.99094,-2.21719c-7.83406,-1.69312 -19.47094,-6.57094 -31.175,-11.18c-12.12062,-4.77031 -24.21437,-9.3525 -33.97,-9.3525c-4.58219,0 -9.04344,1.935 -12.685,3.7625c-2.55312,1.27656 -3.48031,1.92156 -4.515,2.58c-1.03469,-0.65844 -1.96187,-1.30344 -4.515,-2.58c-3.64156,-1.8275 -8.10281,-3.7625 -12.685,-3.7625zM68.8,61.92c2.28438,0 6.43656,1.505 9.675,3.1175c3.23844,1.6125 5.59,3.225 5.59,3.225c1.16906,0.79281 2.70094,0.79281 3.87,0c0,0 2.35156,-1.6125 5.59,-3.225c3.23844,-1.6125 7.39063,-3.1175 9.675,-3.1175c7.43094,0 19.51125,4.09844 31.4975,8.815c7.78031,3.06375 15.19781,5.95281 22.145,8.2775c-14.60656,3.99094 -42.42219,10.4275 -70.8425,10.4275c-28.55469,0 -56.50469,-6.43656 -71.0575,-10.4275c7.01438,-2.365 14.52594,-5.30781 22.36,-8.385c11.97281,-4.68969 23.98594,-8.7075 31.4975,-8.7075zM21.6075,87.72c15.96375,3.93719 39.78844,8.6 64.3925,8.6c24.71156,0 48.64375,-4.64937 64.6075,-8.6c-4.95844,4.3 -10.29312,9.03 -16.2325,13.6525c-12.99406,10.105 -28.51437,19.0275 -48.375,19.0275c-19.86062,0 -35.38094,-8.93594 -48.375,-19.0275c-5.89906,-4.58219 -11.09937,-9.36594 -16.0175,-13.6525z"></path></g></g></svg>
+                                            <td class="ale-table-cell">Full, sweet, lingering hop</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
-                    <div class="container ale-container">
-                        <h4 class="title">Saltaire Brewery's</h4>
-                        <h3 class="text-uppercase title-colour title">Cascade</h3>
-                        <h5>Tasting notes</h5>
-                        <table class="table ale-table">
-                            <tbody>
-                                <tr>
-                                    <td class="title ale-table-cell">Sight</td>
-                                    <td><i class="fa fa-eye ale-icon"></i></td>
-                                    <td class="ale-table-cell">Bright, rich pale</td>
-                                </tr>
-                                <tr>
-                                    <td class="title ale-table-cell">Smell</td>
-                                    <td><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M58.48,13.76c0,1.43781 -0.88687,6.26188 -1.505,9.245c-7.095,33.59375 -17.46875,42.81188 -25.9075,50.2025c-6.03344,5.28094 -10.4275,9.05688 -10.4275,20.3175c0,9.89 10.11844,19.995 19.995,19.995c12.88656,0 18.55719,5.44219 24.08,10.75c5.2675,5.06594 10.23938,9.89 21.285,9.89c11.04563,0 16.0175,-4.82406 21.285,-9.89c5.52281,-5.30781 11.19344,-10.75 24.08,-10.75c9.87656,0 19.995,-10.105 19.995,-19.995c0,-11.26062 -4.32687,-15.07687 -10.4275,-20.425c-8.37156,-7.33687 -18.8125,-16.48781 -25.9075,-50.095c-0.57781,-2.6875 -1.505,-7.55187 -1.505,-9.245h-6.88c0,2.91594 1.34375,9.47344 1.6125,10.75c7.57875,35.83781 19.44406,46.21156 28.165,53.8575c5.68406,4.98531 8.0625,7.01438 8.0625,15.1575c0,6.11406 -7.00094,13.115 -13.115,13.115c-15.65469,0 -22.92437,7.01438 -28.81,12.685c-4.97187,4.78375 -8.2775,7.955 -16.555,7.955c-8.2775,0 -11.58312,-3.17125 -16.555,-7.955c-5.89906,-5.67062 -13.15531,-12.685 -28.81,-12.685c-6.10062,0 -13.115,-7.00094 -13.115,-13.115c0,-8.12969 2.31125,-10.22594 8.0625,-15.265c8.65375,-7.57875 20.58625,-17.89875 28.165,-53.75c0.26875,-1.31687 1.6125,-8.08937 1.6125,-10.75zM51.6,129.3225l-12.7925,12.685l4.945,4.945l4.4075,-4.515v15.8025h6.88v-15.8025l4.4075,4.515l4.945,-4.945zM120.4,129.3225l-12.7925,12.685l4.945,4.945l4.4075,-4.515v15.8025h6.88v-15.8025l4.4075,4.515l4.945,-4.945z"></path></g></g></svg>
-                                        <td class="ale-table-cell">Pink grapefuit</td>
-                                </tr>
-                                <tr>
-                                    <td class="title ale-table-cell">Taste</td>
-                                    <td><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M68.8,55.04c-9.7825,0 -21.86281,4.50156 -33.97,9.245c-11.89219,4.66281 -23.70375,9.675 -31.605,11.395c-0.02687,0.01344 -0.08062,-0.01344 -0.1075,0c-0.1075,0 -0.215,0 -0.3225,0c-0.47031,0.12094 -0.91375,0.33594 -1.29,0.645c-0.06719,0.02688 -0.14781,0.06719 -0.215,0.1075c-0.12094,0.09406 -0.22844,0.20156 -0.3225,0.3225c-0.06719,0.02688 -0.14781,0.06719 -0.215,0.1075c0,0.04031 0,0.06719 0,0.1075c-0.08062,0.06719 -0.14781,0.13438 -0.215,0.215c0,0.04031 0,0.06719 0,0.1075c-0.13437,0.20156 -0.24187,0.41656 -0.3225,0.645c-0.04031,0.04031 -0.06719,0.06719 -0.1075,0.1075c0,0.06719 0,0.14781 0,0.215c-0.05375,0.17469 -0.08062,0.34938 -0.1075,0.5375c0,0.04031 0,0.06719 0,0.1075c0,0.06719 0,0.14781 0,0.215c0,0.04031 0,0.06719 0,0.1075c0,0.06719 0,0.14781 0,0.215c0,0.04031 0,0.06719 0,0.1075c0,0.06719 0,0.14781 0,0.215c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0,0.06719 0,0.14781 0,0.215c0.02687,0.06719 0.06719,0.14781 0.1075,0.215c0.02688,0.06719 0.06719,0.14781 0.1075,0.215c0,0.04031 0,0.06719 0,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.02688,0.06719 0.06719,0.14781 0.1075,0.215c0,0.04031 0,0.06719 0,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.02688,0.06719 0.06719,0.14781 0.1075,0.215c0.06719,0.04031 0.14781,0.08063 0.215,0.1075c0,0.04031 0,0.06719 0,0.1075c0.06719,0.04031 0.14781,0.08063 0.215,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.06719,0.04031 0.14781,0.08063 0.215,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.04031,0 0.06719,0 0.1075,0c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.06719,0.04031 0.14781,0.08063 0.215,0.1075c7.095,2.86219 17.7375,13.88094 31.2825,24.4025c13.545,10.52156 30.6375,20.5325 52.5675,20.5325c21.93,0 39.13,-9.9975 52.675,-20.5325c13.545,-10.535 24.12031,-21.55375 31.175,-24.4025c0.14781,-0.06719 0.29563,-0.13437 0.43,-0.215c0.1075,-0.02687 0.215,-0.06719 0.3225,-0.1075c1.57219,-0.76594 2.31125,-2.58 1.73344,-4.23281c-0.56437,-1.63937 -2.28437,-2.59344 -3.99094,-2.21719c-7.83406,-1.69312 -19.47094,-6.57094 -31.175,-11.18c-12.12062,-4.77031 -24.21437,-9.3525 -33.97,-9.3525c-4.58219,0 -9.04344,1.935 -12.685,3.7625c-2.55312,1.27656 -3.48031,1.92156 -4.515,2.58c-1.03469,-0.65844 -1.96187,-1.30344 -4.515,-2.58c-3.64156,-1.8275 -8.10281,-3.7625 -12.685,-3.7625zM68.8,61.92c2.28438,0 6.43656,1.505 9.675,3.1175c3.23844,1.6125 5.59,3.225 5.59,3.225c1.16906,0.79281 2.70094,0.79281 3.87,0c0,0 2.35156,-1.6125 5.59,-3.225c3.23844,-1.6125 7.39063,-3.1175 9.675,-3.1175c7.43094,0 19.51125,4.09844 31.4975,8.815c7.78031,3.06375 15.19781,5.95281 22.145,8.2775c-14.60656,3.99094 -42.42219,10.4275 -70.8425,10.4275c-28.55469,0 -56.50469,-6.43656 -71.0575,-10.4275c7.01438,-2.365 14.52594,-5.30781 22.36,-8.385c11.97281,-4.68969 23.98594,-8.7075 31.4975,-8.7075zM21.6075,87.72c15.96375,3.93719 39.78844,8.6 64.3925,8.6c24.71156,0 48.64375,-4.64937 64.6075,-8.6c-4.95844,4.3 -10.29312,9.03 -16.2325,13.6525c-12.99406,10.105 -28.51437,19.0275 -48.375,19.0275c-19.86062,0 -35.38094,-8.93594 -48.375,-19.0275c-5.89906,-4.58219 -11.09937,-9.36594 -16.0175,-13.6525z"></path></g></g></svg></td>
-                                    <td class="ale-table-cell">Punchy citrus, distinctive bitterness</td>
-                                </tr>
-                            </tbody>
-                        </table>
+
+                    <div class="col-md-6">
+                        <div class="container-fluid image-container">
+                            <img class="ale-image" src="assets/css/images/beer_cascade.png"></img>
+                        </div>
+                        <div class="container ale-container">
+                            <h4 class="title">Saltaire Brewery's</h4>
+                            <h3 class="text-uppercase title-colour title">Cascade</h3>
+                            <h5>Tasting notes</h5>
+                            <table class="table ale-table">
+                                <tbody>
+                                    <tr>
+                                        <td class="title ale-table-cell">Sight</td>
+                                        <td><i class="fa fa-eye ale-icon"></i></td>
+                                        <td class="ale-table-cell">Bright, rich pale</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="title ale-table-cell">Smell</td>
+                                        <td><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M58.48,13.76c0,1.43781 -0.88687,6.26188 -1.505,9.245c-7.095,33.59375 -17.46875,42.81188 -25.9075,50.2025c-6.03344,5.28094 -10.4275,9.05688 -10.4275,20.3175c0,9.89 10.11844,19.995 19.995,19.995c12.88656,0 18.55719,5.44219 24.08,10.75c5.2675,5.06594 10.23938,9.89 21.285,9.89c11.04563,0 16.0175,-4.82406 21.285,-9.89c5.52281,-5.30781 11.19344,-10.75 24.08,-10.75c9.87656,0 19.995,-10.105 19.995,-19.995c0,-11.26062 -4.32687,-15.07687 -10.4275,-20.425c-8.37156,-7.33687 -18.8125,-16.48781 -25.9075,-50.095c-0.57781,-2.6875 -1.505,-7.55187 -1.505,-9.245h-6.88c0,2.91594 1.34375,9.47344 1.6125,10.75c7.57875,35.83781 19.44406,46.21156 28.165,53.8575c5.68406,4.98531 8.0625,7.01438 8.0625,15.1575c0,6.11406 -7.00094,13.115 -13.115,13.115c-15.65469,0 -22.92437,7.01438 -28.81,12.685c-4.97187,4.78375 -8.2775,7.955 -16.555,7.955c-8.2775,0 -11.58312,-3.17125 -16.555,-7.955c-5.89906,-5.67062 -13.15531,-12.685 -28.81,-12.685c-6.10062,0 -13.115,-7.00094 -13.115,-13.115c0,-8.12969 2.31125,-10.22594 8.0625,-15.265c8.65375,-7.57875 20.58625,-17.89875 28.165,-53.75c0.26875,-1.31687 1.6125,-8.08937 1.6125,-10.75zM51.6,129.3225l-12.7925,12.685l4.945,4.945l4.4075,-4.515v15.8025h6.88v-15.8025l4.4075,4.515l4.945,-4.945zM120.4,129.3225l-12.7925,12.685l4.945,4.945l4.4075,-4.515v15.8025h6.88v-15.8025l4.4075,4.515l4.945,-4.945z"></path></g></g></svg>
+                                            <td class="ale-table-cell">Pink grapefuit</td>
+                                    </tr>
+                                    <tr>
+                                        <td class="title ale-table-cell">Taste</td>
+                                        <td><svg xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="50" height="50" viewBox="0 0 172 172" style=" fill:#000000;"><g fill="none" fill-rule="nonzero" stroke="none" stroke-width="1" stroke-linecap="butt" stroke-linejoin="miter" stroke-miterlimit="10" stroke-dasharray="" stroke-dashoffset="0" font-family="none" font-weight="none" font-size="none" text-anchor="none" style="mix-blend-mode: normal"><path d="M0,172v-172h172v172z" fill="none"></path><g fill="#ffffff"><path d="M68.8,55.04c-9.7825,0 -21.86281,4.50156 -33.97,9.245c-11.89219,4.66281 -23.70375,9.675 -31.605,11.395c-0.02687,0.01344 -0.08062,-0.01344 -0.1075,0c-0.1075,0 -0.215,0 -0.3225,0c-0.47031,0.12094 -0.91375,0.33594 -1.29,0.645c-0.06719,0.02688 -0.14781,0.06719 -0.215,0.1075c-0.12094,0.09406 -0.22844,0.20156 -0.3225,0.3225c-0.06719,0.02688 -0.14781,0.06719 -0.215,0.1075c0,0.04031 0,0.06719 0,0.1075c-0.08062,0.06719 -0.14781,0.13438 -0.215,0.215c0,0.04031 0,0.06719 0,0.1075c-0.13437,0.20156 -0.24187,0.41656 -0.3225,0.645c-0.04031,0.04031 -0.06719,0.06719 -0.1075,0.1075c0,0.06719 0,0.14781 0,0.215c-0.05375,0.17469 -0.08062,0.34938 -0.1075,0.5375c0,0.04031 0,0.06719 0,0.1075c0,0.06719 0,0.14781 0,0.215c0,0.04031 0,0.06719 0,0.1075c0,0.06719 0,0.14781 0,0.215c0,0.04031 0,0.06719 0,0.1075c0,0.06719 0,0.14781 0,0.215c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0,0.06719 0,0.14781 0,0.215c0.02687,0.06719 0.06719,0.14781 0.1075,0.215c0.02688,0.06719 0.06719,0.14781 0.1075,0.215c0,0.04031 0,0.06719 0,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.02688,0.06719 0.06719,0.14781 0.1075,0.215c0,0.04031 0,0.06719 0,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.02688,0.06719 0.06719,0.14781 0.1075,0.215c0.06719,0.04031 0.14781,0.08063 0.215,0.1075c0,0.04031 0,0.06719 0,0.1075c0.06719,0.04031 0.14781,0.08063 0.215,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.06719,0.04031 0.14781,0.08063 0.215,0.1075c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.04031,0 0.06719,0 0.1075,0c0.04031,0.04031 0.06719,0.06719 0.1075,0.1075c0.06719,0.04031 0.14781,0.08063 0.215,0.1075c7.095,2.86219 17.7375,13.88094 31.2825,24.4025c13.545,10.52156 30.6375,20.5325 52.5675,20.5325c21.93,0 39.13,-9.9975 52.675,-20.5325c13.545,-10.535 24.12031,-21.55375 31.175,-24.4025c0.14781,-0.06719 0.29563,-0.13437 0.43,-0.215c0.1075,-0.02687 0.215,-0.06719 0.3225,-0.1075c1.57219,-0.76594 2.31125,-2.58 1.73344,-4.23281c-0.56437,-1.63937 -2.28437,-2.59344 -3.99094,-2.21719c-7.83406,-1.69312 -19.47094,-6.57094 -31.175,-11.18c-12.12062,-4.77031 -24.21437,-9.3525 -33.97,-9.3525c-4.58219,0 -9.04344,1.935 -12.685,3.7625c-2.55312,1.27656 -3.48031,1.92156 -4.515,2.58c-1.03469,-0.65844 -1.96187,-1.30344 -4.515,-2.58c-3.64156,-1.8275 -8.10281,-3.7625 -12.685,-3.7625zM68.8,61.92c2.28438,0 6.43656,1.505 9.675,3.1175c3.23844,1.6125 5.59,3.225 5.59,3.225c1.16906,0.79281 2.70094,0.79281 3.87,0c0,0 2.35156,-1.6125 5.59,-3.225c3.23844,-1.6125 7.39063,-3.1175 9.675,-3.1175c7.43094,0 19.51125,4.09844 31.4975,8.815c7.78031,3.06375 15.19781,5.95281 22.145,8.2775c-14.60656,3.99094 -42.42219,10.4275 -70.8425,10.4275c-28.55469,0 -56.50469,-6.43656 -71.0575,-10.4275c7.01438,-2.365 14.52594,-5.30781 22.36,-8.385c11.97281,-4.68969 23.98594,-8.7075 31.4975,-8.7075zM21.6075,87.72c15.96375,3.93719 39.78844,8.6 64.3925,8.6c24.71156,0 48.64375,-4.64937 64.6075,-8.6c-4.95844,4.3 -10.29312,9.03 -16.2325,13.6525c-12.99406,10.105 -28.51437,19.0275 -48.375,19.0275c-19.86062,0 -35.38094,-8.93594 -48.375,-19.0275c-5.89906,-4.58219 -11.09937,-9.36594 -16.0175,-13.6525z"></path></g></g></svg></td>
+                                        <td class="ale-table-cell">Punchy citrus, distinctive bitterness</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
                     </div>
                 </div>
-            </div>
-        </section>
-    </div>
-    <!-----/.foodanddrink----->
+            </section>
+        </div>
+        <!-----/.foodanddrink----->
 
-    <!-----Footer----->
-    <div class="container-fluid footer-container section-bg-2" id="contactus">
-        <footer class="container-fluid">
-            <div class="row">
-                <div class="col-lg-3 col-sm-6">
-                    <address>
+        <!-----Footer----->
+        <div class="container-fluid footer-container section-bg-2" id="contactus">
+            <footer class="container-fluid">
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                        <address>
+                            <h6>Address:</h6>
                         105 Main Road, Drax, Selby <br> North Yorkshire, YO8 8NT
                     </address>
-                </div>
+                    </div>
 
-                <div class="col-lg-3 col-sm-6">
-                    <p>01757 618642</p>
-                </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h6>Telephone:</h6>
+                        <p>01757 618642</p>
+                    </div>
 
-                <div class="col-lg-3 col-sm-6">
-                    <p>thehuntsmanindrax@gmail.com</p>
-                </div>
+                    <div class="col-lg-3 col-sm-6">
+                        <h6>Email:</h6>
+                        <p>thehuntsmanindrax@gmail.com</p>
+                    </div>
 
-                <div class="col-lg-3 col-sm-6">
-                    <div class="facebook">
-                        <a href="https://www.facebook.com/www.thehuntsmanindrax.co.uk/" target="_blank">
+                    <div class="col-lg-3 col-sm-6">
+                        <div class="facebook">
+                            <a href="https://www.facebook.com/www.thehuntsmanindrax.co.uk/" target="_blank">
                         <i class="fab fa-facebook-square footer-icon"></i>
                         </a>
-                    </div>
-                    <div class="tripadvisor">
-                        <a href="https://www.tripadvisor.co.uk/Restaurant_Review-g658247-d7002946-Reviews-The_Huntsman-Selby_Selby_District_North_Yorkshire_England.html" target="_blank"> 
+                        </div>
+                        <div class="tripadvisor">
+                            <a href="https://www.tripadvisor.co.uk/Restaurant_Review-g658247-d7002946-Reviews-The_Huntsman-Selby_Selby_District_North_Yorkshire_England.html" target="_blank"> 
                         <i class="fab fa-tripadvisor footer-icon"></i>
                         </a>
+                        </div>
+                        <div class="instagram">
+                            <a href="https://www.instagram.com/" target="_blank"> 
+                        <i class="fab fa-instagram footer-icon"></i>
+                        </a>
+                        </div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/?lang=en-gb" target="_blank"> 
+                        <i class="fab fa-twitter footer-icon"></i>
+                        </a>
+                        </div>
+
                     </div>
                 </div>
-            </div>
 
 
-            <!--<p><small><a href="https://icons8.com/icon/36046/smelling">Smelling icon by Icons8</a><br><a href="https://icons8.com/icon/18149/lips">Lips icon by Icons8</a>
+                <!--<p><small><a href="https://icons8.com/icon/36046/smelling">Smelling icon by Icons8</a><br><a href="https://icons8.com/icon/18149/lips">Lips icon by Icons8</a>
             <a href="https://icons8.com/icon/20891/goal">Goal icon by Icons8</a><a href="https://icons8.com/icon/70015/billiards">Billiards icon by Icons8</a></small></p> -->
 
-        </footer>
-    </div>
-    <!-----/.footer----->
+            </footer>
+        </div>
+        <!-----/.footer----->
 
-    <div class="modal" tabindex="-1" role="dialog" id="myModal">
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header section-bg-2">
-                    <h5 class="modal-title">Sign up for The Huntsman newsletter!</h5>
-                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+        <div class="modal" tabindex="-1" role="dialog" id="myModal">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header section-bg-2">
+                        <h5 class="modal-title">Sign up for The Huntsman newsletter!</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
           <span aria-hidden="true">&times;</span>
         </button>
-                </div>
-                <div class="modal-body section-bg-2">
-                    <form>
-                        <label for="signupemail">Email Address</label>
-                        <input type="email" id="signupemail" placeholder="email@example.com" class="form-control">
-                        <label for="name">Name</label>
-                        <input type="text" id="name" placeholder="John Doe" class="form-control" />
-                    </form>
-                </div>
-                <div class="modal-footer section-bg-2">
-                    <button type="button" class="btn btn-secondary btn-modal btn-submit">Submit</button>
+                    </div>
+                    <div class="modal-body section-bg-2">
+                        <form>
+                            <label for="signupemail">Email Address</label>
+                            <input type="email" id="signupemail" placeholder="email@example.com" class="form-control">
+                            <label for="name">Name</label>
+                            <input type="text" id="name" placeholder="John Doe" class="form-control" />
+                        </form>
+                    </div>
+                    <div class="modal-footer section-bg-2">
+                        <button type="button" class="btn btn-secondary btn-modal btn-submit">Submit</button>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
 
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
-    <script type="text/javascript">
-        /*global $*/
-        $(function() {
-            $('[data-toggle="tooltip"]').tooltip()
-        })
-    </script>
+        <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+        <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+        <script type="text/javascript">
+            /*global $*/
+            $(function() {
+                $('[data-toggle="tooltip"]').tooltip()
+            })
+        </script>
 
 </body>
 
