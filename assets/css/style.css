@@ -261,12 +261,14 @@ h5 {
 
 .ale-container {
     padding-top: 20px;
+    color: #252525;
 }
 
 .footer-container {
     margin: 0;
     padding: 30px 49px 30px 49px;
     text-align: left;
+    
 
 }
 
