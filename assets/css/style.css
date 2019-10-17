@@ -18,7 +18,7 @@ h5 {
     word-wrap: break-word;
 }
 
-/*-------------------------------------Colours*/
+/*-------------------------------------------------------------------------------------Colours*/
 
 .title-colour {
     color: #77BFA5;
@@ -40,13 +40,20 @@ h5 {
     background-color: #77BFA5;
 }
 
-/*-------------------------------------Navbar*/
+/*---------------------------------------------------------------------------------------------Navbar*/
 
 .navbar-huntsman {
-    background-color: #252525
+    padding-left: 60%;
 }
 
-/*-------------------------------------Header*/
+.nav-icon {
+    font-size: 25px;
+}
+/*---------------------------------------------------------------------------------------------Header*/
+
+.header {
+    width: 100%;
+}
 
 .huntsmanlogo {
     font-family: Bevan, sans-serif;
@@ -144,7 +151,46 @@ h5 {
     }
 }
 
-/*-------------------------------------Media queries*/
+/*----------------------------------------------------------------------------------------------Keyframes*/
+
+@keyframes rainbow {
+    0% {
+        color: red;
+    }
+
+    20% {
+        color: orange;
+    }
+
+    40% {
+        color: yellow;
+    }
+
+    60% {
+        color: green;
+    }
+
+    85% {
+        color: blue;
+    }
+
+    100% {
+        color: red;
+    }
+}
+
+@keyframes spin {
+    from {
+        transform: rotate(0deg);
+    }
+
+    to {
+        transform: rotate(359deg);
+    }
+}
+
+
+/*---------------------------------------------------------------------------------------------Media queries*/
 
 @media screen and (max-width: 601px) {
     .huntsmanlogo {
@@ -158,10 +204,11 @@ h5 {
     }
 }
 
-/*-------------------------------------Containers*/
+/*---------------------------------------------------------------------------------------------Containers*/
 
 .header-container {
     height: 101vh;
+    padding: 0px;
 }
 
 .modal-container {
@@ -212,7 +259,7 @@ h5 {
 }
 
 
-/*-------------------------------------Introduction*/
+/*---------------------------------------------------------------------------------------------Introduction*/
 
 .introduction {
     background: rgba(0, 0, 0, 0.8);
@@ -288,7 +335,8 @@ h5 {
 }
 
 .ban-icon {
-    font-size: 270px;
+    text-align: center;
+    font-size: 18vw;
     color: #C30000;
 }
 
@@ -299,7 +347,7 @@ h5 {
 }
 
 .food-card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.8);
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
 }
 
 /* Credit: https://leaverou.github.io/bubbly/ */
@@ -325,7 +373,7 @@ h5 {
     margin-left: -41px;
 }
 
-/*-------------------------------------Facilities*/
+/*---------------------------------------------------------------------------------------------Facilities*/
 
 .facilities-title {
     padding: 0px 0 20px 0px;
@@ -355,13 +403,84 @@ h5 {
     padding-top: 15px;
 }
 
-/*-------------------------------------Events*/
+.fa-car:hover {
+    -webkit-animation: bounce 1s;
+    animation: bounce 1s;
+}
+
+.fa-wheelchair:hover {
+    -webkit-animation: wobble 1s;
+    animation: wobble 1s;
+}
+
+.fa-smoking {
+    background: #252525;
+    -webkit-background-clip: text;
+    -webkit-transition: all .5s ease-in;
+    transition: all .5s ease-in;
+
+}
+
+.fa-smoking:hover {
+    background: linear-gradient(135deg, #252525, #252525 60%, red);
+    -webkit-background-clip: text;
+    color: transparent;
+    opacity: 1;
+}
+
+.fa-paw:hover {
+    -webkit-animation: heartBeat 1s;
+    animation: heartBeat 1s;
+}
+
+.fa-baby:hover {
+    animation: spin linear 1s;
+}
+
+.fa-cloud-sun:hover {
+    animation: rainbow 2s;
+}
+
+.dart-icon:hover {
+    -webkit-animation: jello 1s;
+    animation: jello 1s;
+}
+
+.billiards-icon:hover {
+    -webkit-animation: tada 1s;
+    animation: tada 1s;
+}
+
+.fa-microphone:hover {
+    -webkit-animation: bounceOutUp 1s;
+    animation: bounceOutUp 1s;
+}
+
+.fa-music:hover {
+    -webkit-animation: flip 1s;
+    animation: flip 1s;
+}
+
+.fa-wifi:hover {
+    -webkit-animation: bounceOutDown 1s;
+    animation: bounceOutDown 1s;
+}
+
+.fa-beer:hover {
+    -webkit-animation: rotateOut 1s;
+    animation: rotateOut 1s;
+}
+
+/*---------------------------------------------------------------------------------------------Events*/
 
 .events-table {
     color: #fff;
 }
 
-/*-------------------------------------Food and drink*/
+.badge {
+    background-color: #ED004B;
+}
+/*---------------------------------------------------------------------------------------------Food and drink*/
 
 .menu-title {
     display: inline-block;
@@ -376,8 +495,6 @@ h5 {
 .booking {
     margin-top: 20px;
     padding: 15px 20px 15px 20px;
-    border: 2px solid #252525;
-    border-radius: 5%;
 }
 
 .ale-table {
@@ -410,7 +527,15 @@ h5 {
     border-color: #c5c5c5;
 }
 
-/*-------------------------------------Footer*/
+.carousel-item {
+    height: 600px;
+}
+
+.d-block {
+    height: 100%;
+}
+
+/*---------------------------------------------------------------------------------------------Footer*/
 
 .footer-icon {
     font-size: 30px;
@@ -431,7 +556,7 @@ h5 {
     padding-left: 15px;
 }
 
-/*-------------------------------------Modals*/
+/*---------------------------------------------------------------------------------------------Modals*/
 
 .modal-header {
     border-bottom-color: #252525
