@@ -85,6 +85,7 @@ h5 {
     margin-top: 10px;
     letter-spacing: 5px;
     color: #77BFA5;
+    background-color: #252525;
 }
 
 /*-------------------------------------Background images animation Credit: https://tympanus.net/codrops/2012/01/02/fullscreen-background-image-slideshow-with-css3/*/
@@ -213,19 +214,6 @@ h5 {
 }
 
 
-/*---------------------------------------------------------------------------------------------Media queries*/
-
-@media screen and (max-width: 601px) {
-    .huntsmanlogo {
-        font-size: 40px;
-    }
-}
-
-@media screen and (min-width: 600px) {
-    .footer-container {
-        text-align: center !important;
-    }
-}
 
 /*---------------------------------------------------------------------------------------------Containers*/
 
@@ -237,9 +225,12 @@ h5 {
 }
 
 .modal-container {
-    margin-top: 30px;
+    margin-top: 0px;
     margin-bottom: 10px;
-    background: #252525;
+    padding-top: 20px;
+    background-color: #252525;
+    color: white;
+    text-align: center;
 }
 
 .about-container {
@@ -300,7 +291,7 @@ h5 {
 .footer-container {
     margin: 0;
     padding: 30px 49px 30px 49px;
-    text-align: left;
+    text-align: center;
     background-color: #252525;
     color: #E8E8E8;
 
@@ -568,7 +559,7 @@ h5 {
 .billiards-icon:hover {
     -animation: tada 1s;
     -webkit-animation: tada 1s;
-    
+
 }
 
 .fa-microphone:hover {
@@ -689,7 +680,7 @@ h5 {
 }
 
 .contact-icon:hover {
-    color: #ED004B;
+    color: #77BFA5;
     -animation: shake 1s .3s;
     -webkit-animation: shake 1s .3s;
 }
@@ -703,6 +694,11 @@ h5 {
 .social-icon:hover {
     animation: tada .5s;
 }
+
+.contactus {
+    text-align: center;
+}
+
 /*---------------------------------------------------------------------------------------------Footer*/
 
 .footer-icon {
@@ -756,4 +752,85 @@ h5 {
 
 .btn-submit:hover {
     border-color: #c5c5c5;
+}
+
+/*---------------------------------------------------------------------------------------------Media queries*/
+
+@media screen and (max-width: 600px) {
+    .huntsmanlogo {
+        font-size: 40px;
+
+    }
+
+    .header-container {
+        height: 100vh;
+    }
+
+    .hours-container {
+        padding-left: 30px;
+    }
+
+    .footer-container {
+        text-align: left;
+    }
+
+    .events-table {
+        margin-bottom: 0px;
+    }
+
+    .events-container {
+        padding-bottom: 0px;
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
+    .ban-icon {
+        font-size: 50vw;
+        padding-left: 9px;
+    }
+    
+    .food-hours-container {
+        padding-left: 30px;
+        padding-right: 30px;
+        margin: auto;
+    }
+    
+    .food-card {
+        margin: auto;
+        margin-top: 10px;
+    }
+    
+    .facilities-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+    
+    .food-container {
+        margin: auto;
+        padding-left: 20px;
+        padding-right: 30px;
+    }
+
+    .carousel {
+        width: 330px;
+    }
+
+    .download-icon {
+        text-align: center;
+    }
+    
+    .booking-container {
+        padding-top: 20px;
+    }
+    
+    .drink-container {
+        padding-right: 30px;
+        padding-left: 30px;
+    }
+    
+    .contact-container {
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+
 }

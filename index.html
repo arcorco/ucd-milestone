@@ -82,33 +82,35 @@
             <p class="intro-para">We are a traditional country pub in the idyllic Yorkshire village of Drax. <br> Join us for a hearty meal, a drink and a chat! <br> We look forward to seeing you soon. </p>
             <div class="container-fluid review-container">
                 <div class="row">
-                    <div class="col-3">
+                    <div class="col-6 col-lg-3">
                         <img class="review-image" src="assets/css/images/person_1.jpeg"></img>
                     </div>
-                    <div class="col-3">
+                    <div class="col-6 col-lg-3">
                         <blockquote class="quote speech-bubble">The best pub ever! Coldest lager, tastiest ale, cheapest wine and most friendly atmosphere!</blockquote>
                     </div>
 
-                    <div class="col-3">
+                    <div class="col-3 d-none d-lg-block">
                         <img class="review-image" src="assets/css/images/person_2.jpeg"></img>
                     </div>
-                    <div class="col-3">
+                    <div class="col-3 d-none d-lg-block">
                         <blockquote class="quote speech-bubble">My family and I have never had a more yummy meal. It's a regular stop for us, it never disappoints!</blockquote>
                     </div>
                 </div>
             </div>
-            <div class="container-fluid modal-container">
-                <h5>Be the first to hear about our news and events by signing up to our newsletter!</h5>
-                <!-- Button trigger modal -->
-                <button type="button" class="btn btn-modal btn-lg grow title" data-toggle="modal" data-target="#myModal">Sign up!</button>
-            </div>
         </section>
     </div>
+    <div class="container-fluid modal-container justify-content-center">
+        <h5>Be the first to hear about our news and events by signing up to our newsletter!</h5>
+        <!-- Button trigger modal -->
+        <button type="button" class="btn btn-modal btn-lg grow title" data-toggle="modal" data-target="#myModal">Sign up!</button>
+    </div>
+
+
 
     <div class="container-fluid about-container">
         <h1 class="">About us</h1>
-        <div class="row container-fluid">
-            <div class="col-6">
+        <div class="row">
+            <div class="col-12 col-md-6">
                 <div class="container-fluid hours-container">
                     <section class="openinghours" id="openinghours">
 
@@ -167,7 +169,7 @@
 
 
             <!-----Events----->
-            <div class="col-6">
+            <div class="col-12 col-md-6">
                 <div class="container-fluid events-container">
                     <section class="events">
                         <h2 class="title">Upcoming Events</h2>
@@ -227,7 +229,7 @@
             <div class="container-food-mobile">
                 <div class="row justify-content-center">
 
-                    <div class="col-3 row-1">
+                    <div class="col-md-3 row-1">
                         <div class="card food-card">
                             <h3 class="card-header text-uppercase">
                                 Monday
@@ -242,7 +244,7 @@
                         </div>
                     </div>
 
-                    <div class="col-3 row-1">
+                    <div class="col-md-3 row-1">
                         <div class="card food-card">
                             <h3 class="card-header text-uppercase">
                                 Tuesday
@@ -259,7 +261,7 @@
                         </div>
                     </div>
 
-                    <div class="col-3 row-1">
+                    <div class="col-md-3 row-1">
                         <div class="card food-card">
                             <h3 class="card-header text-uppercase">
                                 Wednesday
@@ -280,7 +282,7 @@
 
                 <div class="row">
 
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <div class="card food-card">
                             <h3 class="card-header text-uppercase">
                                 Thursday
@@ -297,7 +299,7 @@
                         </div>
                     </div>
 
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <div class="card food-card">
                             <h3 class="card-header text-uppercase">
                                 Friday
@@ -314,7 +316,7 @@
                         </div>
                     </div>
 
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <div class="card food-card">
                             <h3 class="card-header text-uppercase">
                                 Saturday
@@ -331,7 +333,7 @@
                         </div>
                     </div>
 
-                    <div class="col-3">
+                    <div class="col-md-3">
                         <div class="card food-card">
                             <h3 class="card-header text-uppercase">
                                 Sunday
@@ -434,12 +436,13 @@
         <div class="container-fluid food-container">
             <section class="menu" id="foodanddrink">
                 <div class="row">
-                    <div class="col-6">
+                    <div class="col-md-6">
                         <h2 class="title menu-title">Download our menu here</h2>
                         <a href="assets/huntsman_menu.pdf" target="_blank" class="cv-pdf">
-                        <i class="fa fa-download menu-download grow-big" aria-hidden="true"></i>
+                        <p class="download-icon"><i class="fa fa-download menu-download grow-big" aria-hidden="true"></i></p>
                         <span class="sr-only">Download link.</span>
                     </a>
+
 
                         <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
                             <div class="carousel-inner">
@@ -464,7 +467,7 @@
                         </div>
 
                     </div>
-                    <div class="col-6">
+                    <div class="col-md-6 booking-container">
                         <h2 class="title">Request a booking</h2>
                         <form class="booking">
                             <div class="form-group">
@@ -512,7 +515,7 @@
                 <h2 class="title">Guest Ales</h2>
                 <div class="row">
                     <div class="col-md-6 ">
-                        <div class="container-fluid image-container">
+                        <div class="container-fluid image-container landlord">
                             <img class="ale-image" src="assets/css/images/beer_landlord.png"></img>
                         </div>
                         <div class="container ale-container">
@@ -581,9 +584,9 @@
     <section>
         <div class="container-fluid contact-container" id="contactus">
             <h1>Contact us</h1>
-            <p>If you would like to book a table, enquire about an event or simply have something you want to ask don't hesitate to get in touch!</p>
+            <p class="contact">If you would like to book a table, enquire about an event or simply have something you want to ask don't hesitate to get in touch!</p>
             <div class="row contact-row">
-                <div class="col-4">
+                <div class="col-md-4">
                     <h2>In person <i class="fas fa-street-view contact-icon"></i> </h2>
                     <div class="address">
                         <p><strong>Address:</strong> <br><br><br><br><br>
@@ -593,7 +596,7 @@
                         </p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <h2>Over the phone <i class="fas fa-phone contact-icon"></i> </h2>
                     <div class="telephone">
                         <strong>Telepone:</strong>
@@ -605,7 +608,7 @@
                         <p>Please be aware that we will be most likely to answer the phone between 11:00-18:00.</p>
                     </div>
                 </div>
-                <div class="col-4">
+                <div class="col-md-4">
                     <h2>Or online <i class="fas fa-laptop contact-icon"></i></h2>
                     <div class="online">
                         <strong>Email:</strong>
@@ -616,25 +619,25 @@
                     <div>
                         <p>Or contact us via our social links!</p>
                         <div class="facebook">
-                        <a href="https://www.facebook.com/www.thehuntsmanindrax.co.uk/" target="_blank">
+                            <a href="https://www.facebook.com/www.thehuntsmanindrax.co.uk/" target="_blank">
                         <i class="fab fa-facebook-square social-icon"></i>
                         </a>
-                    </div>
-                    <div class="tripadvisor">
-                        <a href="https://www.tripadvisor.co.uk/Restaurant_Review-g658247-d7002946-Reviews-The_Huntsman-Selby_Selby_District_North_Yorkshire_England.html" target="_blank"> 
+                        </div>
+                        <div class="tripadvisor">
+                            <a href="https://www.tripadvisor.co.uk/Restaurant_Review-g658247-d7002946-Reviews-The_Huntsman-Selby_Selby_District_North_Yorkshire_England.html" target="_blank"> 
                         <i class="fab fa-tripadvisor social-icon"></i>
                         </a>
-                    </div>
-                    <div class="instagram">
-                        <a href="https://www.instagram.com/" target="_blank"> 
+                        </div>
+                        <div class="instagram">
+                            <a href="https://www.instagram.com/" target="_blank"> 
                         <i class="fab fa-instagram social-icon"></i>
                         </a>
-                    </div>
-                    <div class="twitter">
-                        <a href="https://twitter.com/?lang=en-gb" target="_blank"> 
+                        </div>
+                        <div class="twitter">
+                            <a href="https://twitter.com/?lang=en-gb" target="_blank"> 
                         <i class="fab fa-twitter social-icon"></i>
                         </a>
-                    </div>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -709,7 +712,7 @@
                 <div class="modal-body section-bg-2">
                     <form>
                         <label for="signupemail">Email Address</label>
-                        <input type="email" id="signupemail" placeholder="email@example.com" class="form-control">
+                        <input type="email" id="signupemail" placeholder="email@example.com" class="form-control" required>
                         <label for="name">Name</label>
                         <input type="text" id="name" placeholder="John Doe" class="form-control" />
                     </form>
