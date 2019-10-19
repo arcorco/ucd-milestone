@@ -9,6 +9,10 @@ body {
     font-family: Poppins, sans-serif
 }
 
+.title-colour {
+    color: #328770;
+}
+
 .btn:focus,
 .btn:active {
     outline: 0;
@@ -57,6 +61,13 @@ h5 {
 
 .nav-icon {
     font-size: 25px;
+}
+
+.huntsmanlogo-small {
+    font-family: Bevan, sans-serif;
+    color: #77BFA5 !important;
+    letter-spacing: 1px;
+    text-decoration: underline;
 }
 
 /*---------------------------------------------------------------------------------------------Header*/
@@ -268,7 +279,7 @@ h5 {
 
 .drink-container {
     margin: 0;
-    padding: 25px 69px 50px 69px;
+    padding: 25px 69px 30px 69px;
     color: #fff;
 }
 
@@ -281,10 +292,17 @@ h5 {
     color: #252525;
 }
 
+.contact-container {
+    margin: 0;
+    padding: 25px 69px 30px 69px;
+}
+
 .footer-container {
     margin: 0;
     padding: 30px 49px 30px 49px;
     text-align: left;
+    background-color: #252525;
+    color: #E8E8E8;
 
 
 }
@@ -405,6 +423,10 @@ h5 {
     border-bottom: 0;
     margin-top: -20.5px;
     margin-left: -41px;
+}
+
+.welcome {
+    text-shadow: 2px 2px #252525;
 }
 
 /*---------------------------------------------------------------------------------------------Opening hours*/
@@ -544,8 +566,9 @@ h5 {
 }
 
 .billiards-icon:hover {
+    -animation: tada 1s;
     -webkit-animation: tada 1s;
-    animation: tada 1s;
+    
 }
 
 .fa-microphone:hover {
@@ -586,8 +609,17 @@ h5 {
 
 .menu-download {
     display: inline-block;
-    padding-left: 30px;
+    padding-left: 10px;
     font-size: 35px;
+    color: #328770;
+}
+
+.grow-big {
+    transition: all .2s ease-in-out;
+}
+
+.grow-big:hover {
+    transform: scale(1.5);
 }
 
 .booking {
@@ -617,12 +649,12 @@ h5 {
 
 .btn-booking {
     color: #fff;
-    border-color: #c5c5c5;
+    border-color: #252525;
     margin: 0;
 }
 
 .btn-booking:hover {
-    border-color: #c5c5c5;
+    border-color: #252525;
 }
 
 .carousel-item {
@@ -633,11 +665,49 @@ h5 {
     height: 100%;
 }
 
+/*---------------------------------------------------------------------------------------------Contact us*/
+
+.contact-row {
+    text-align: center;
+}
+
+.address {
+    display: inline-block;
+    text-align: left;
+}
+
+.telephone {
+    display: inline-block;
+}
+
+.online {
+    display: inline-block;
+}
+
+.contact-icon {
+    transition-duration: 1s;
+}
+
+.contact-icon:hover {
+    color: #ED004B;
+    -animation: shake 1s .3s;
+    -webkit-animation: shake 1s .3s;
+}
+
+.social-icon {
+    display: inline-block;
+    color: #252525;
+    font-size: 30px;
+}
+
+.social-icon:hover {
+    animation: tada .5s;
+}
 /*---------------------------------------------------------------------------------------------Footer*/
 
 .footer-icon {
     font-size: 30px;
-    color: #252525;
+    color: #e8e8e8;
 }
 
 .footer-icon:hover {
