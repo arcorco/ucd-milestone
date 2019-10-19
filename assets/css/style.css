@@ -15,8 +15,16 @@ body {
     box-shadow: none;
 }
 
+h1 {
+    text-align: center;
+    text-decoration: underline;
+    color: #204D3D;
+    font-family: Poppins, sans-serif
+}
+
 h2 {
-    color: #77BFA5;
+    color: #328770;
+    font-family: Poppins, sans-serif
 }
 
 h5 {
@@ -24,10 +32,6 @@ h5 {
 }
 
 /*-------------------------------------------------------------------------------------Colours*/
-
-.title-colour {
-    color: #328770;
-}
 
 .text-white {
     color: #fff;
@@ -227,31 +231,44 @@ h5 {
     background: #252525;
 }
 
+.about-container {
+    margin-top: 80px;
+    padding: 0;
+}
+
 .hours-container {
     margin: 0px;
-    padding: 69px 35px 50px 69px;
+    padding: 35px 35px 20px 69px;
 }
 
 .facilities-container {
     margin: 0px;
-    padding: 69px 69px 50px 69px;
+    padding: 35px 69px 30px 69px;
 }
 
 .events-container {
     margin: 0;
-    padding: 69px 69px 50px 35px;
+    padding: 35px 69px 20px 35px;
 }
 
+.food-hours-container {
+    margin: 0;
+    padding: 0px 69px 30px 69px;
+}
 
+.food-and-drink-container {
+    margin-top: 30px;
+    padding: 0;
+}
 
 .food-container {
     margin: 0;
-    padding: 69px 69px 50px 69px;
+    padding: 25px 69px 30px 69px;
 }
 
 .drink-container {
     margin: 0;
-    padding: 69px 69px 50px 69px;
+    padding: 25px 69px 50px 69px;
     color: #fff;
 }
 
@@ -268,7 +285,7 @@ h5 {
     margin: 0;
     padding: 30px 49px 30px 49px;
     text-align: left;
-    
+
 
 }
 
@@ -366,27 +383,6 @@ h5 {
     box-shadow: 10px 10px 5px 0px rgba(0, 0, 0, 0.8);
 }
 
-.food-image {
-    height: 100%;
-    width: 100%;
-}
-
-.ban-icon {
-    text-align: center;
-    font-size: 18vw;
-    color: #C30000;
-}
-
-.food-card {
-    margin-bottom: 10px;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-    transition: 0.4s;
-}
-
-.food-card:hover {
-    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
-}
-
 /* Credit: https://leaverou.github.io/bubbly/ */
 
 .speech-bubble {
@@ -411,10 +407,67 @@ h5 {
     margin-left: -41px;
 }
 
-/*---------------------*/
+/*---------------------------------------------------------------------------------------------Opening hours*/
+
+.highlight:hover {
+    background-color: #FFB2BF;
+}
 
 .opening-icon {
     font-size: 40px;
+}
+
+.alert {
+    margin-top: 30px;
+    background-color: #95C1AE;
+    color: #328770;
+    border-color: #328770;
+}
+
+.alert-title {
+    text-decoration: underline;
+}
+
+/*---------------------------------------------------------------------------------------------Food hours*/
+
+.food-image {
+    height: 100%;
+    width: 100%;
+}
+
+.ban-icon {
+    text-align: center;
+    font-size: 17vw;
+    color: #C30000;
+}
+
+.food-card {
+    height: 375px;
+    width: 250px;
+    margin-bottom: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.4s;
+    border-color: #252525;
+    border-width: 2px;
+}
+
+.food-card:hover {
+    box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.8);
+}
+
+.row-1 {
+    margin: 0px 10px 0px 10px;
+}
+
+.card-header {
+    background-color: white;
+    background-image: linear-gradient(90deg, rgba(237, 0, 75, .5) 50%, transparent 50%),
+    linear-gradient(rgba(237, 0, 75, .5) 50%, transparent 50%);
+    background-size: 50px 50px;
+}
+
+.card-footer {
+    background-color: rgba(37, 37, 37, .3);
 }
 
 /*---------------------------------------------------------------------------------------------Facilities*/
@@ -610,6 +663,7 @@ h5 {
     display: inline-block;
     padding-left: 15px;
 }
+
 /*---------------------------------------------------------------------------------------------Modals*/
 
 .modal-header {
