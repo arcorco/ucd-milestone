@@ -55,10 +55,6 @@ h5 {
 
 /*---------------------------------------------------------------------------------------------Navbar*/
 
-.navbar-huntsman {
-    padding-left: 60%;
-}
-
 .nav-icon {
     font-size: 25px;
 }
@@ -110,7 +106,7 @@ h5 {
     color: transparent;
     background-size: cover;
     background-position: 50% 50%;
-    background-repeat: none;
+    background-repeat: no-repeat;
     opacity: 0;
     z-index: -1;
     animation: imageAnimation 48s linear infinite 0s;
@@ -310,7 +306,7 @@ h5 {
 .introduction {
     color: #fff;
 
-    margin-top: 2.5%;
+    margin-top: 7%;
     text-align: center;
     z-index: 1;
     opacity: 1;
@@ -470,6 +466,7 @@ h5 {
 
 .row-1 {
     margin: 0px 10px 0px 10px;
+    justify-content: center;
 }
 
 .card-header {
@@ -590,7 +587,23 @@ h5 {
 
 .badge {
     background-color: #ED004B;
+    display: block;
+    font-size: 2em;
+    margin-top: 0.67em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
 }
+
+.month {
+    display: block;
+    font-size: 1.5em;
+    margin-bottom: 1.33em;
+    margin-left: 0;
+    margin-right: 0;
+    font-weight: bold;
+}
+
 
 /*---------------------------------------------------------------------------------------------Food and drink*/
 
@@ -603,6 +616,10 @@ h5 {
     padding-left: 10px;
     font-size: 35px;
     color: #328770;
+}
+
+.download-icon {
+    text-align: center;
 }
 
 .grow-big {
@@ -754,6 +771,30 @@ h5 {
     border-color: #c5c5c5;
 }
 
+.booking-modal-header {
+    padding-top: 5px;
+    padding-left: 10px;
+    border-top-left-radius: .3rem;
+    border-top-right-radius: .3rem;
+}
+
+.booking-modal-body {
+    padding-top: 15px;
+    padding-left: 7.5px;
+    border: 1px solid #252525;
+    border-left-color: transparent;
+    border-right-color: transparent;
+}
+
+.booking-modal-footer {
+    padding-top: 10px;
+    padding-right: 7.5px;
+    border-top-color: #252525;
+    border-bottom-left-radius: .3rem;
+    border-bottom-right-radius: .3rem;
+    text-align: right;
+}
+
 /*---------------------------------------------------------------------------------------------Media queries*/
 
 @media screen and (max-width: 600px) {
@@ -788,23 +829,23 @@ h5 {
         font-size: 50vw;
         padding-left: 9px;
     }
-    
+
     .food-hours-container {
         padding-left: 30px;
         padding-right: 30px;
         margin: auto;
     }
-    
+
     .food-card {
         margin: auto;
         margin-top: 10px;
     }
-    
+
     .facilities-container {
         padding-left: 30px;
         padding-right: 30px;
     }
-    
+
     .food-container {
         margin: auto;
         padding-left: 20px;
@@ -815,22 +856,35 @@ h5 {
         width: 330px;
     }
 
-    .download-icon {
-        text-align: center;
-    }
-    
     .booking-container {
         padding-top: 20px;
     }
-    
+
     .drink-container {
         padding-right: 30px;
         padding-left: 30px;
     }
-    
+
     .contact-container {
         padding-left: 30px;
         padding-right: 30px;
     }
 
+    .container-food-mobile {
+        display: none;
+    }
+
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+    .container-food {
+        display: none;
+
+    }
+}
+
+@media screen and (min-width: 769px) {
+    .container-food-mobile {
+        display: none;
+    }
 }
