@@ -11,8 +11,10 @@ This project is aimed at customers to the pub, whether regular or new.
 •As someone who visits the pub regularly, they will want to know of any events coming up soon, and they can
 view these events in the upcoming events section. They can also join a mailing list to keep up to date with any 
 events or offers.
+
 •As a new customer to the pub, they may require information prior to visit. They can access information
 such as opening hours, facilities and an address by viewing their resepctive sections.
+
 •As a customer wanting to eat food, they may wish to see a menu beforehand. They can view a menu in the image
 carousel in the food and drink section (or download the menu via the link in the same section). They may also want
 to book a table, which they can do via the form in the food and drink section, or by viewing the contact section for
