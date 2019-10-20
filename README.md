@@ -233,3 +233,5 @@ Deployed via GitHub Pages (https://arcorco.github.io/ucd-milestone)
 •The CSS for the checkered background in the cards was obtained from https://leaverou.github.io/css3patterns/ (colours changed).
 
 •Images taken from https://www.pexels.com/. 
+
+•Favicon created with https://favicon.io.
