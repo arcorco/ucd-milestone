@@ -465,10 +465,8 @@ h5 {
 }
 
 .row-1 {
-    margin: 0px 10px 0px 10px;
-    justify-content: center;
+    margin-left: 50px;
 }
-
 .card-header {
     background-color: white;
     background-image: linear-gradient(90deg, rgba(237, 0, 75, .5) 50%, transparent 50%),
@@ -502,81 +500,17 @@ h5 {
     padding-top: 15px;
 }
 
+.facilities-icon:hover {
+    -webkit-animation: bounce 1s;
+    animation: bounce 1s;
+}
+
 .billiards-icon {
     padding-top: 8px;
 }
 
 .dart-icon {
     padding-top: 15px;
-}
-
-.fa-car:hover {
-    -webkit-animation: bounce 1s;
-    animation: bounce 1s;
-}
-
-.fa-wheelchair:hover {
-    -webkit-animation: wobble 1s;
-    animation: wobble 1s;
-}
-
-.fa-smoking {
-    background: #252525;
-    -webkit-background-clip: text;
-    -webkit-transition: all .5s ease-in;
-    transition: all .5s ease-in;
-
-}
-
-.fa-smoking:hover {
-    background: linear-gradient(135deg, #252525, #252525 60%, red);
-    -webkit-background-clip: text;
-    color: transparent;
-    opacity: 1;
-}
-
-.fa-paw:hover {
-    -webkit-animation: heartBeat 1s;
-    animation: heartBeat 1s;
-}
-
-.fa-baby:hover {
-    animation: spin linear 1s;
-}
-
-.fa-cloud-sun:hover {
-    animation: rainbow 2s;
-}
-
-.dart-icon:hover {
-    -webkit-animation: jello 1s;
-    animation: jello 1s;
-}
-
-.billiards-icon:hover {
-    -animation: tada 1s;
-    -webkit-animation: tada 1s;
-
-}
-
-.fa-microphone:hover {
-    -webkit-animation: bounceOutUp 1s;
-    animation: bounceOutUp 1s;
-}
-
-.fa-music:hover {
-    -webkit-animation: flip 1s;
-    animation: flip 1s;
-}
-
-.fa-wifi:hover {
-    -webkit-animation: bounceOutDown 1s;
-    animation: bounceOutDown 1s;
-}
-
-.fa-beer:hover {
-    -webkit-animation: rotateOut 1s;
-    animation: rotateOut 1s;
 }
 
 /*---------------------------------------------------------------------------------------------Events*/
@@ -872,6 +806,10 @@ h5 {
 
     .container-food-mobile {
         display: none;
+    }
+    
+    .row-1 {
+        margin-left: 0;
     }
 
 }
